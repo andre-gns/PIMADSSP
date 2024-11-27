@@ -3205,11 +3205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PimProgram\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj",
       "projectName": "PIMFazendaUrbanaAPI",
-      "projectPath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PimProgram\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj",
+      "projectPath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj",
       "packagesPath": "C:\\Users\\Paola\\.nuget\\packages\\",
-      "outputPath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PimProgram\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\obj\\",
+      "outputPath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3230,8 +3230,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PimProgram\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj": {
-              "projectPath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PimProgram\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj"
+            "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj": {
+              "projectPath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj"
             }
           }
         }

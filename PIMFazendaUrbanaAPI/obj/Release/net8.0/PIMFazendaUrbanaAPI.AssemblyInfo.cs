@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PIMFazendaUrbanaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+001c3c9ce02e89f30d9dc602a3af283aa37b374b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PIMFazendaUrbanaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PIMFazendaUrbanaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

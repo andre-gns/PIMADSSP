@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mf/cLFkd1vc=",
+  "dgSpecHash": "4qAGMRSYC/s=",
   "success": true,
-  "projectFilePath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PimProgram\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj",
+  "projectFilePath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paola\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Paola\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",

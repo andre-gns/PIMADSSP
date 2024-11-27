@@ -1,4 +1,28 @@
-G:\Meu Drive\André\Faculdade Unip\3 semestre\PimProgram\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.GeneratedMSBuildEditorConfig.editorconfig
-G:\Meu Drive\André\Faculdade Unip\3 semestre\PimProgram\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.AssemblyInfoInputs.cache
-G:\Meu Drive\André\Faculdade Unip\3 semestre\PimProgram\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.AssemblyInfo.cs
-G:\Meu Drive\André\Faculdade Unip\3 semestre\PimProgram\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.csproj.CoreCompileInputs.cache
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\DataAccess\ConnectionString.json
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\PIMFazendaUrbanaLib.deps.json
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\PIMFazendaUrbanaLib.dll
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\PIMFazendaUrbanaLib.pdb
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.csproj.AssemblyReference.cache
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.AssemblyInfoInputs.cache
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.AssemblyInfo.cs
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.csproj.CoreCompileInputs.cache
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.sourcelink.json
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.dll
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\refint\PIMFazendaUrbanaLib.dll
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.pdb
+C:\Users\Paola\Source\Repos\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\ref\PIMFazendaUrbanaLib.dll
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\DataAccess\ConnectionString.json
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\PIMFazendaUrbanaLib.deps.json
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\PIMFazendaUrbanaLib.dll
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\PIMFazendaUrbanaLib.pdb
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.csproj.AssemblyReference.cache
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.AssemblyInfoInputs.cache
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.AssemblyInfo.cs
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.csproj.CoreCompileInputs.cache
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.sourcelink.json
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.dll
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\refint\PIMFazendaUrbanaLib.dll
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.pdb
+C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\ref\PIMFazendaUrbanaLib.dll

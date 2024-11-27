@@ -24,7 +24,7 @@ builder.Services.AddRadzenCookieThemeService(options =>
 
 builder.Services.AddHttpClient(); // Registra o HttpClient para chamadas HTTP
 
-var apiBaseUrl = Environment.GetEnvironmentVariable("API_BASE_URL") ?? "https://localhost:7079/api";
+var apiBaseUrl = Environment.GetEnvironmentVariable("API_BASE_URL") ?? "https://localhost:44300/api";
 
 builder.Services.AddScoped<DialogService>(); // Para DialogService
 

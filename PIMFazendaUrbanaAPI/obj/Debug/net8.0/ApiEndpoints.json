@@ -1,0 +1,517 @@
+[
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaRadzen.Controllers.CepController",
+    "Method": "RetornarEndereco",
+    "RelativePath": "api/Cep/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cep",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PIMFazendaUrbanaAPI.DTOs.EnderecoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.ClienteController",
+    "Method": "ConsultarClientePorId",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.ClienteController",
+    "Method": "AlterarCliente",
+    "RelativePath": "api/Cliente/alterar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteDto",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.ClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.ClienteController",
+    "Method": "ListarClientesAtivos",
+    "RelativePath": "api/Cliente/ativos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.ClienteController",
+    "Method": "CadastrarCliente",
+    "RelativePath": "api/Cliente/cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteDto",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.ClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.ClienteController",
+    "Method": "ExcluirCliente",
+    "RelativePath": "api/Cliente/excluir/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.ClienteController",
+    "Method": "ListarClientesFiltrados",
+    "RelativePath": "api/Cliente/filtrados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PIMFazendaUrbanaAPI.DTOs.ClienteDTO, PIMFazendaUrbanaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.CultivoController",
+    "Method": "ConsultarCultivoPorId",
+    "RelativePath": "api/Cultivo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.CultivoController",
+    "Method": "AlterarCultivo",
+    "RelativePath": "api/Cultivo/alterar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cultivoDto",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.CultivoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.CultivoController",
+    "Method": "ListarCultivoAtivos",
+    "RelativePath": "api/Cultivo/ativos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.CultivoController",
+    "Method": "CadastrarCultivo",
+    "RelativePath": "api/Cultivo/cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cultivoDto",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.CultivoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.CultivoController",
+    "Method": "ExcluirCultivo",
+    "RelativePath": "api/Cultivo/excluir/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.CultivoController",
+    "Method": "ListarCultivosFiltrados",
+    "RelativePath": "api/Cultivo/filtrados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PIMFazendaUrbanaAPI.DTOs.CultivoDTO, PIMFazendaUrbanaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.ExportacaoController",
+    "Method": "Exportar",
+    "RelativePath": "api/Exportacao/exportar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.ExportacaoRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FornecedorController",
+    "Method": "ConsultarFornecedorPorId",
+    "RelativePath": "api/Fornecedor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FornecedorController",
+    "Method": "AlterarFornecedor",
+    "RelativePath": "api/Fornecedor/alterar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fornecedorDto",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.FornecedorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FornecedorController",
+    "Method": "ListarFornecedorAtivos",
+    "RelativePath": "api/Fornecedor/ativos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FornecedorController",
+    "Method": "CadastrarFornecedor",
+    "RelativePath": "api/Fornecedor/cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fornecedorDto",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.FornecedorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FornecedorController",
+    "Method": "ExcluirFornecedor",
+    "RelativePath": "api/Fornecedor/excluir/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FornecedorController",
+    "Method": "ListarFornecedoresFiltrados",
+    "RelativePath": "api/Fornecedor/filtrados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PIMFazendaUrbanaAPI.DTOs.FornecedorDTO, PIMFazendaUrbanaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FuncionarioController",
+    "Method": "ConsultarFuncionarioPorId",
+    "RelativePath": "api/Funcionario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FuncionarioController",
+    "Method": "AlterarFuncionario",
+    "RelativePath": "api/Funcionario/alterar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionarioDTO",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.FuncionarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FuncionarioController",
+    "Method": "ListarFuncionariosAtivos",
+    "RelativePath": "api/Funcionario/ativos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FuncionarioController",
+    "Method": "CadastrarFuncionario",
+    "RelativePath": "api/Funcionario/cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionarioDto",
+        "Type": "PIMFazendaUrbanaAPI.DTOs.FuncionarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FuncionarioController",
+    "Method": "ExcluirFuncionario",
+    "RelativePath": "api/Funcionario/excluir/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.FuncionarioController",
+    "Method": "ListarFuncionariosFiltrados",
+    "RelativePath": "api/Funcionario/filtrados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PIMFazendaUrbanaAPI.DTOs.FuncionarioDTO, PIMFazendaUrbanaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.RecomendacaoController",
+    "Method": "GetRecomendacoes",
+    "RelativePath": "api/Recomendacao/gerar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regiao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "estacao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ambienteControlado",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PIMFazendaUrbanaAPI.DTOs.CultivoDTO, PIMFazendaUrbanaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIMFazendaUrbanaAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PIMFazendaUrbanaAPI.WeatherForecast, PIMFazendaUrbanaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K9AR84z79yY=",
+  "dgSpecHash": "0Jms9w2uo9I=",
   "success": true,
-  "projectFilePath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PimProgram\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj",
+  "projectFilePath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paola\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\Paola\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",
