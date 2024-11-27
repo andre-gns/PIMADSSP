@@ -1,0 +1,196 @@
+@page "/cadastrar-compra"
+@using PIMFazendaUrbanaRadzen.Services
+@using PIMFazendaUrbanaAPI.DTOs
+@* @attribute [Authorize] *@
+
+<PageTitle>Cadastrar Compra</PageTitle>
+
+<!-- Título na parte superior -->
+<div style="text-align: left; margin-bottom: 20px;">
+    <RadzenText Text="Cadastrar Compra" TextStyle="TextStyle.H3" TagName="TagName.H1" class="rz-mb-4" />
+</div>
+
+<!-- Container geral usando Flexbox para organizar o grid e o formulário -->
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
+
+    <!-- Parte do formulário (lado esquerdo) -->
+    <div style="flex: 1; min-width: 400px; display: flex; flex-direction: column;">
+        <RadzenFieldset>
+            <HeaderTemplate>
+                <div>
+                    <RadzenText Text="Preencha as informações abaixo:" TextStyle="Radzen.Blazor.TextStyle.H6" Style="margin-bottom: 0px;" />
+                </div>
+            </HeaderTemplate>
+            <ChildContent>
+                <!-- Combo Box Fornecedor -->
+                <div style="margin-bottom: 10px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenText Text="Fornecedor" Style="flex: 0 0 30%; min-width: 100px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenDropDown TValue="string" @bind-Value="selectedClient" Data="@comboBoxClients" TextProperty="Text" ValueProperty="Value" Style="width: 100%;" />
+                    </RadzenRow>
+                </div>
+
+                <!-- Combo Box Produto -->
+                <div style="margin-bottom: 10px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenText Text="Produto" Style="flex: 0 0 30%; min-width: 100px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenDropDown TValue="string" @bind-Value="selectedProduct" Data="@comboBoxProducts" TextProperty="Text" ValueProperty="Value" Style="width: 100%;" />
+                    </RadzenRow>
+                </div>
+
+                <!-- Text Box Categoria -->
+                <div style="margin-bottom: 10px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenText Text="Categoria" Style="flex: 0 0 30%; min-width: 100px; margin-top: 5px; margin-bottom: 5px; margin-bottom: 5px;" />
+                        <RadzenTextBox Placeholder="Verdura" ReadOnly="true" Style="width: 100%; background-color: rgba(161, 161, 161, 0.15);" />
+                    </RadzenRow>
+                </div>
+
+                <!-- Text Box Unidade -->
+                <div style="margin-bottom: 10px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenText Text="Unidade" Style="flex: 0 0 30%; min-width: 100px; margin-top: 5px; margin-bottom: 5px; margin-bottom: 5px;" />
+                        <RadzenTextBox Placeholder="kg" ReadOnly="true" Style="width: 100%; background-color: rgba(161, 161, 161, 0.15);" />
+                    </RadzenRow>
+                </div>
+
+                <!-- Text Box Quantidade -->
+                <div style="margin-bottom: 10px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenText Text="Quantidade" Style="flex: 0 0 30%; min-width: 100px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenNumeric @bind-Value="quantidade" Style="width: 100%;" Min="0" Name="Quantidade" title="Quantidade é obrigatória e deve ser um número inteiro maior que zero" />
+                        <RadzenRequiredValidator Component="Quantidade" Text="Quantidade é obrigatória e deve ser um número inteiro maior que zero" />
+                    </RadzenRow>
+                </div>
+
+                <!-- Text Box Valor Unitário -->
+                <div style="margin-bottom: 10px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenText Text="Valor Unitário" Style="flex: 0 0 30%; min-width: 100px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenTextBox Style="width: 100%;" />
+                    </RadzenRow>
+                </div>
+
+                <!-- Text Box Valor Total -->
+                <div style="margin-bottom: 10px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenText Text="Valor Total" Style="flex: 0 0 30%; min-width: 100px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenTextBox Placeholder="R$ 25,00" ReadOnly="true" Style="width: 100%; background-color: rgba(161, 161, 161, 0.15);" />
+                    </RadzenRow>
+                </div>
+
+                <div>
+                    <!-- Botões Adicionar, Editar, Remover -->
+                    <RadzenRow class="rz-mt-4" style="text-align: center; display: flex; justify-content: center; align-items: center; margin-right: 0.5rem; margin-left: 0.5rem;">
+                        <RadzenStack Orientation="Orientation.Horizontal" Gap="1rem" JustifyContent="JustifyContent.Center" class="rz-mt-2" style=" width: 100%;">
+                            <RadzenButton id="botao-menor"
+                                          ButtonStyle="ButtonStyle.Primary"
+                                          Icon="add"
+                                          Shade="Shade.Lighter"
+                                          Variant="Variant.Flat"
+                                          @onclick:stopPropagation="true"
+                                          Style="color: #ffffff; background-color: var(--rz-primary-light); min-width: 125px;"
+                                          Text="Adicionar" />
+
+                            <RadzenButton id="botao-menor"
+                                          ButtonStyle="ButtonStyle.Primary"
+                                          Icon="edit"
+                                          Shade="Shade.Lighter"
+                                          Variant="Variant.Flat"
+                                          @onclick:stopPropagation="true"
+                                          Style="color: #ffffff; background-color: rgba(66, 154, 255, 0.68); min-width: 95px;" Text="Editar" />
+
+                            <RadzenButton id="botao-menor"
+                                          ButtonStyle="ButtonStyle.Danger"
+                                          Icon="delete"
+                                          Shade="Shade.Lighter"
+                                          Variant="Variant.Flat"
+                                          Style="min-width: 110px;"
+                                          @onclick:stopPropagation="true" Text="Remover" />
+                        </RadzenStack>
+                    </RadzenRow>
+                </div>
+
+            </ChildContent>
+        </RadzenFieldset>
+    </div>
+
+    <!-- DataGrid (lado direito) -->
+    <div style="flex: 1.5; min-width: 300px; margin-top: 10px;">
+        <RadzenColumn Size="7">
+
+            <!-- DataGrid -->
+            <RadzenRow>
+                <RadzenDataGrid Data="@dataGridItems"
+                                TItem="dynamic"
+                                Style="border: 1px solid black; padding: 5px; width: 100%;"
+                                class="data-grid-com-poucas-colunas"
+                                AllowColumnResize="true">
+                    <Columns>
+                        <RadzenDataGridColumn TItem="dynamic" Property="ProductName" Title="Nome do Produto" Width="30%" />
+                        <RadzenDataGridColumn TItem="dynamic" Property="Quantity" Title="Quantidade" Width="15%" />
+                        <RadzenDataGridColumn TItem="dynamic" Property="Unit" Title="Unidade" Width="15%" />
+                        <RadzenDataGridColumn TItem="dynamic" Property="UnitPrice" Title="Valor Unitário" Width="20%" />
+                        <RadzenDataGridColumn TItem="dynamic" Property="TotalPrice" Title="Valor Total" Width="20%" />
+                    </Columns>
+                </RadzenDataGrid>
+            </RadzenRow>
+
+            <!-- Embaixo do DataGrid -->
+            <!-- Seção de Valor Total do Pedido e Botões -->
+            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; width: 100%; margin-top: 1rem;">
+
+                <!-- Linha do valor total -->
+                <div style="display: flex; align-items: center; gap: 0.5rem; flex: 1; min-width: 300px;">
+                    <RadzenLabel Text="Valor Total do Pedido:" Style="flex: 0 0 auto;" />
+                    <RadzenTextBox Placeholder="R$ 50,00" ReadOnly="true" Style="flex: 1; min-width: 150px; background-color: rgba(161, 161, 161, 0.15);" />
+                </div>
+
+                <!-- Botões Confirmar e Cancelar -->
+                <div style="display: flex; gap: 1rem; flex: 0 0 auto; min-width: 280px; justify-content: center;">
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" ButtonType="ButtonType.Submit" Icon="save" Text="Confirmar"
+                                  Variant="Radzen.Variant.Filled" Shade="Radzen.Shade.Default"
+                                  Style="width: 50%; min-width: 140px;" />
+                    <RadzenButton ButtonStyle="ButtonStyle.Danger" Text="Cancelar" Icon="cancel"
+                                  Variant="Radzen.Variant.Filled" Shade="Radzen.Shade.Light"
+                                  Style="width: 50%; min-width: 130px;" />
+                </div>
+
+            </div>
+
+        </RadzenColumn>
+    </div>
+</div>
+
+@code {
+    private string selectedClient;
+    private string selectedProduct;
+    private int quantidade;
+
+    // Mock de dados para o ComboBox
+    private List<ComboBoxItem> comboBoxClients = new List<ComboBoxItem>
+    {
+        new ComboBoxItem { Value = "1", Text = "Fornecedor 1" },
+        new ComboBoxItem { Value = "2", Text = "Fornecedor 2" },
+        new ComboBoxItem { Value = "3", Text = "Fornecedor 3" }
+    };
+
+    private List<ComboBoxItem> comboBoxProducts = new List<ComboBoxItem>
+    {
+        new ComboBoxItem { Value = "1", Text = "Produto 1" },
+        new ComboBoxItem { Value = "2", Text = "Produto 2" },
+        new ComboBoxItem { Value = "3", Text = "Produto 3" }
+    };
+
+    private List<dynamic> dataGridItems = new List<dynamic>
+    {
+        new { ProductName = "Produto 1", Quantity = 10, Unit = "kg", UnitPrice = 2.50, TotalPrice = 25.00 },
+        new { ProductName = "Produto 2", Quantity = 5, Unit = "kg", UnitPrice = 3.00, TotalPrice = 15.00 }
+    };
+
+    public class ComboBoxItem
+    {
+        public string Value { get; set; }
+        public string Text { get; set; }
+    }
+}

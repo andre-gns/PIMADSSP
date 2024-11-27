@@ -1,0 +1,256 @@
+﻿@page "/cultivos"
+@using PIMFazendaUrbanaRadzen.Services
+@using PIMFazendaUrbanaAPI.DTOs
+@* @attribute [Authorize] *@
+
+<PageTitle>Cultivos</PageTitle>
+
+<!-- Título na parte superior -->
+<div style="text-align: left; margin-bottom: 20px;">
+    <RadzenText Text="Cultivos" TextStyle="TextStyle.H3" TagName="TagName.H1" class="rz-mb-4" />
+</div>
+
+<!-- Container geral usando Flexbox para organizar o formulário e o DataGrid -->
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+
+    <!-- Parte do formulário (lado esquerdo) -->
+    <div style="flex: 1; margin-right: 20px; min-width: 300px; display: flex; flex-direction: column;">
+        <RadzenFieldset>
+            <HeaderTemplate>
+                <div>
+                    <RadzenText Text="@textoCadastrarOuEditar" TextStyle="Radzen.Blazor.TextStyle.H6" />
+                </div>
+            </HeaderTemplate>
+            <ChildContent>
+                <div style="margin-bottom: 15px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenLabel Text="Nome:" Style="flex: 0 0 100%; min-width: 150px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenTextBox Name="Nome" @bind-Value="cultivoCadastrarOuEditar.Nome" 
+                                       Style="width: 100%;" 
+                                       title="Nome é obrigatório e deve ter ao menos 3 caracteres" />
+                        <RadzenRequiredValidator Component="Nome" Text="Nome é obrigatório e deve ter ao menos 3 caracteres" />
+                    </RadzenRow>
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenLabel Text="Variedade:" Style="flex: 0 0 100%; min-width: 150px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenTextBox Name="Variedade" @bind-Value="cultivoCadastrarOuEditar.Variedade"
+                                       Style="width: 100%;"
+                                       title="Variedade é obrigatória e deve ter ao menos 3 caracteres" />
+                        <RadzenRequiredValidator Component="Variedade" Text="Variedade é obrigatória e deve ter ao menos 3 caracteres" />
+                    </RadzenRow>
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenLabel Text="Categoria:" Style="flex: 0 0 100%; min-width: 150px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenDropDown style="width: 100%"
+                                    @bind-Value="@cultivoCadastrarOuEditar.Categoria"
+                                    Name="Categoria"
+                                    Placeholder="Selecione uma categoria"
+                                    Data="@categorias"
+                                    TValue="string" 
+                                    title="Categoria é obrigatória, selecione uma da lista" />
+                        <RadzenRequiredValidator Component="Categoria" Text="Categoria é obrigatória, selecione uma da lista" />
+                    </RadzenRow>
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenLabel Text="Tempo de Prod. Tradicional (Dias):" Style="flex: 0 0 100%; min-width: 150px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenNumeric Name="TempoProdTrad" ShowUpDown="false" @bind-Value="cultivoCadastrarOuEditar.TempoProdTradicional"
+                                       Min="0" Style="width: 100%;"
+                                       title="Tempo de Produção Tradicional é obrigatório e deve ser um número inteiro maior que 0" />
+                        <RadzenRequiredValidator Component="TempoProdTrad" Text="Tempo de Produção Tradicional é obrigatório e deve ser um número inteiro maior que 0" />
+                    </RadzenRow>
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <RadzenRow Gap="0.5" RowGap="0.5">
+                        <RadzenLabel Text="Tempo de Prod. Controlado (Dias):" Style="flex: 0 0 100%; min-width: 150px; margin-top: 5px; margin-bottom: 5px;" />
+                        <RadzenNumeric Name="TempoProdCtrl" ShowUpDown="false" @bind-Value="cultivoCadastrarOuEditar.TempoProdControlado"
+                                       Min="0" Style="width: 100%;"
+                                       title="Tempo de Produção Controlado é obrigatório e deve ser um número inteiro maior que 0" />
+                        <RadzenRequiredValidator Component="TempoProdCtrl" Text="Tempo de Produção Controlado é obrigatório e deve ser um número inteiro maior que 0" />
+                    </RadzenRow>
+                </div>
+
+                <div style="width: 100%;">
+                    <RadzenColumn Size="12">
+                        <RadzenStack Orientation="Orientation.Horizontal" Gap="1rem" JustifyContent="JustifyContent.Center" class="rz-mt-2" style="width: 100%;">
+                            <!-- Botão Confirmar -->
+                            <RadzenButton ButtonStyle="ButtonStyle.Primary" ButtonType="ButtonType.Submit" Icon="save" Text="Confirmar"
+                                          Variant="Radzen.Variant.Filled" Shade="Radzen.Shade.Default" style="width: 50%;" 
+                                          Click="FormSubmit"/>
+                            <!-- Botão Cancelar -->
+                            <RadzenButton ButtonStyle="ButtonStyle.Danger" Text="Cancelar" Icon="cancel"
+                                          Variant="Radzen.Variant.Filled" Shade="Radzen.Shade.Light" style="width: 50%;"
+                                          Click="CancelarClick" />
+                        </RadzenStack>
+                    </RadzenColumn>
+                </div>
+            </ChildContent>
+        </RadzenFieldset>
+    </div>
+
+    <!-- DataGrid (lado direito) -->
+    <div style="flex: 2; min-width: 300px; margin-top: 10px;">
+
+        <RadzenColumn>
+            <RadzenRow Style="margin-bottom: 10px;">
+                <!-- Stack Principal para organizar os elementos -->
+                <RadzenStack Orientation="Orientation.Horizontal"
+                             AlignItems="AlignItems.Center"
+                             Gap="0.5rem"
+                             Style="width: 100%; flex-wrap: wrap;">
+
+                    <!-- Campo de busca que ocupa o espaço restante -->
+                    <RadzenTextBox Placeholder="Procurar..."
+                                   Style="flex-grow: 1; width: auto; min-width: 100px;"
+                                   @oninput="@(args => OnSearch(args.Value.ToString()))" />
+
+                    <!-- Botão Exportar -->
+                    <RadzenSplitButton ButtonStyle="ButtonStyle.Secondary"
+                                       Icon="get_app"
+                                       Text="Exportar"
+                                       Variant="Radzen.Variant.Filled"
+                                       Shade="Radzen.Shade.Lighter"
+                                       IconColor="black"
+                                       Click="OnExportarClick"
+                                       Style="min-width: 140px; padding: 0px 0px !important;"
+                                       class="split-button-menor">
+                        <RadzenSplitButtonItem Text="Excel" Value="xlsx"/>
+                        <RadzenSplitButtonItem Text="CSV" Value="csv"/>
+                    </RadzenSplitButton>
+
+                    @* // comentado já que o botão cancelar já faz isso
+                    <!-- Botão Adicionar -->
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary"
+                                  Icon="add_circle_outline"
+                                  Text="Adicionar"
+                                  Click="@AddButtonClick"
+                                  Variant="Radzen.Variant.Filled"
+                                  Shade="Radzen.Shade.Light"
+                                  Style="min-width: 120px;" 
+                                  class="botao-menor" />
+                    *@
+                </RadzenStack>
+            </RadzenRow>
+
+
+
+            <RadzenRow>
+                <RadzenDataGrid @ref="grid0"
+                                Data="@cultivos"
+                                TItem="CultivoDTO"
+                                AllowFiltering="true"
+                                FilterMode="FilterMode.Advanced"
+                                AllowPaging="true"
+                                AllowSorting="true"
+                                ShowPagingSummary="true"
+                                PageSizeOptions="@(new int[]{5, 10, 20, 30})"
+                                AllowColumnResize="true"
+                                PageSizeText="Itens por página"
+                                PageTitleFormat="Página {0}"
+                                PagingSummaryFormat="Página {0} de {1} ({2} itens)"
+                                PrevPageAriaLabel="Ir para a página anterior"
+                                PrevPageTitle="Página anterior"
+                                EmptyText="Sem itens para mostrar"
+                                PageAriaLabelFormat="Ir para a página {0}"
+                                NextPageAriaLabel="Ir para a próxima página"
+                                NextPageTitle="Próxima página"
+                                LastPageTitle="Última página"
+                                FirstPageTitle="Primeira página"
+                                EndsWithText="Termina com..."
+                                EnumFilterSelectText="Selecionar..."
+                                EqualsText="Igual a..."
+                                FilterText="Filtrar"
+                                FirstPageAriaLabel="Ir para a primeira página"
+                                GreaterThanText="Maior que..."
+                                GreaterThanOrEqualsText="Igual ou maior que..."
+                                IsNullText="Nulo"
+                                IsNotNullText="Não nulo"
+                                LastPageAriaLabel="Ir para a última página"
+                                LessThanText="Menor que..."
+                                LessThanOrEqualsText="Igual ou menor que..."
+                                OrOperatorText="Ou"
+                                AndOperatorText="E"
+                                ApplyFilterText="Aplicar"
+                                ClearFilterText="Limpar"
+                                ColumnsText="Colunas"
+                                ContainsText="Contém..."
+                                DoesNotContainText="Não contém..."
+                                StartsWithText="Começa com..."
+                                IsNotEmptyText="Não é vazio"
+                                IsEmptyText="É vazio"
+                                NotEqualsText="Não é igual a..."
+                                AllColumnsText="Todas"
+                                ColumnsShowingText="Exibir colunas"
+                                LogicalOperatorAriaLabel="Operador de filtro lógico"
+                                EnumNullFilterText="Sem valor"
+                                FilterToggleAriaLabel="Alternar"
+                                FilterOperatorAriaLabel="Filtrar operador"
+                                FilterValueAriaLabel="Filtrar valor"
+                                SecondFilterOperatorAriaLabel="Segundo operador de filtro"
+                                SecondFilterValueAriaLabel="Segundo valor de filtro"
+                                GroupPanelText="Arrastar cabeçalho de coluna"
+                                ExpandChildItemAriaLabel="Expandir item filho"
+                                ExpandGroupAriaLabel="Expandir grupo"
+                                RemoveGroupAriaLabel="Remover grupo"
+                                SelectVisibleColumnsAriaLabel="Selecionar colunas visíveis"
+                                Style="border: 1px solid black; padding: 5px; width: 100%;"
+                                class="data-grid-com-poucas-colunas">
+                    <Columns>
+                        <RadzenDataGridColumn TItem="CultivoDTO" Property="Id" Title="Id" Width="7%"  Filterable="false" />
+                        <RadzenDataGridColumn TItem="CultivoDTO" Property="Nome" Title="Nome" Width="12%" Filterable="false" />
+                        <RadzenDataGridColumn TItem="CultivoDTO" Property="Variedade" Title="Variedade" Width="25%" />
+                        <RadzenDataGridColumn TItem="CultivoDTO" Property="Categoria" Title="Categoria" Width="13%" Filterable="false" />
+
+                        <RadzenDataGridColumn TItem="CultivoDTO" Property="TempoProdTradicional" Width="17%" >
+                            <HeaderTemplate>
+                                <div style="text-align: center;">
+                                    <div>Tempo Prod.</div>
+                                    <div>Ctrl. (dias)</div>
+                                </div>
+                            </HeaderTemplate>
+                        </RadzenDataGridColumn>
+
+                        <RadzenDataGridColumn TItem="CultivoDTO" Property="TempoProdControlado" Width="17%">
+                            <HeaderTemplate>
+                                <div style="text-align: center;">
+                                    <div>Tempo Prod.</div>
+                                    <div>Ctrl. (dias)</div>
+                                </div>
+                            </HeaderTemplate>
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna customizada para botões de ação -->
+                        <RadzenDataGridColumn TItem="CultivoDTO" Filterable="false" Sortable="false" TextAlign="TextAlign.Center" Width="84px" MinWidth="84px">
+                            <Template Context="cultivo">
+                                <RadzenButton ButtonStyle="ButtonStyle.Primary"
+                                              Icon="edit"
+                                              Size="ButtonSize.Medium"
+                                              Shade="Shade.Lighter"
+                                              Variant="Variant.Flat"
+                                              Click="@(() => EditarCultivo(cultivo))"
+                                              @onclick:stopPropagation="true"
+                                              Style="color: #ffffff; background-color: rgba(66, 154, 255, 0.68)" />
+                                <RadzenButton ButtonStyle="ButtonStyle.Danger"
+                                              Icon="delete"
+                                              Size="ButtonSize.Medium"
+                                              Shade="Shade.Lighter"
+                                              Variant="Variant.Flat"
+                                              Click="@(() => ExcluirCultivo(cultivo))"
+                                              @onclick:stopPropagation="true" />
+                            </Template>
+                        </RadzenDataGridColumn>
+
+                    </Columns>
+                </RadzenDataGrid>
+            </RadzenRow>
+        </RadzenColumn>
+
+        
+    </div>
+</div>

@@ -1,0 +1,201 @@
+@page "/"
+@* @attribute [Authorize] *@
+
+<PageTitle>Index</PageTitle>
+
+<RadzenRow Style="height: 4vh;">
+    <RadzenStack Orientation="Orientation.Horizontal" Style="width: 100%;" Gap="1rem">
+        <RadzenText TextStyle="TextStyle.H6" Style="font-weight: bold;">
+            @dataAtual
+        </RadzenText>
+        <RadzenText TextStyle="TextStyle.H6">
+            @horaAtual
+        </RadzenText>
+    </RadzenStack>
+</RadzenRow>
+
+<RadzenRow Style="height: 17vh; margin-bottom: 1rem;">
+    <RadzenCard Style="width: 100%; margin-bottom: 0.5rem;">
+        <RadzenText Style="margin-bottom: 0.5rem; font-weight: bold">Previsão do tempo</RadzenText>
+        <div style="max-height: 150px;">
+            <a class="weatherwidget-io" href="https://forecast7.com/pt/n21d17n47d81/ribeirao-preto/"
+               data-label_1="Ribeirão Preto"
+               data-language="PT"
+               data-theme="original"
+               style="display: block; width: 100%; text-align: center; max-height: 100px !important">
+                Ribeirão Preto
+            </a>
+            <script>
+                !function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = 'https://weatherwidget.io/js/widget.min.js';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, 'script', 'weatherwidget-io-js');
+            </script>
+        </div>
+    </RadzenCard>
+</RadzenRow>
+
+<RadzenRow Style="height: 50vh;">
+    <!-- Container principal com classe para aplicar CSS responsivo -->
+    <div class="responsive-layout" style="display: flex; align-items: flex-start; justify-content: center; gap: 1rem;">
+
+        <RadzenColumn Size="8" Style="width: 100%;" id="carousel-column">
+            <!-- Coluna Central com Carousel e Logo -->
+            <div id="carousel-column" style="flex: 2; padding: 5px; text-align: center;">
+                <div style="position: relative; width: 100%; margin: 0 auto;">
+                    <RadzenCarousel AllowNavigation="false" AllowPaging="false" Style="max-height: 600px; max-width: 1500px;">
+                        <Items>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow01.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow02.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow03.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow04.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow05.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow06.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow07.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow08.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow09.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow10.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                            <RadzenCarouselItem>
+                                <RadzenImage Path="images/slideshow11.png" style="width: 100%; margin: 0 auto;" />
+                            </RadzenCarouselItem>
+                        </Items>
+                    </RadzenCarousel>
+
+                    <!-- Logo sobreposta no centro do carousel -->
+                    <RadzenImage Path="images/LogoPaginaInicial.png" Style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 95%;" />
+                </div>
+            </div>
+        </RadzenColumn>
+
+        <RadzenColumn Size="4" Style="width: 100%;" id="notes-and-news-column">
+            <!-- Coluna de Notas e Previsão do Tempo -->
+            <div style="flex: 1; padding: 5px;">
+                <!-- Anotações -->
+                <RadzenCard Style="background-color: #FFFBCC; margin-bottom: 1rem; width: 100%; max-height: 290px;">
+                    <RadzenText Style="margin-bottom: 0.5rem; font-weight: bold; color: black">Anotações</RadzenText>
+                    <RadzenTextArea @bind-Value="notaUsuario"
+                                    @oninput="HandleInput"
+                                    @onfocus="OnFocus"
+                                    Style="background-color: #FFFBCC; color: black; width: 100%; height: 225px; max-height: 225px; min-height: 50px; resize: vertical;"
+                                    Placeholder="Escreva suas anotações aqui..." />
+                </RadzenCard>
+
+                <!-- Notícias -->
+
+                <RadzenCard Style="width: 100%; margin-bottom: 1rem; height: 290px; max-height: 290px; overflow: hidden;">
+                    <RadzenText Style="margin-bottom: 0.5rem; font-weight: bold">Notícias</RadzenText>
+                    <RadzenListBox TValue="dynamic" Data="@noticias1"
+                                   Style="width: 100%; height: calc(100% - 30px); overflow-y: auto; padding-right: 5px;"
+                                   ReadOnly="true">
+                        <Template Context="item">
+                            <span>&#8226;</span> @item
+                        </Template>
+                    </RadzenListBox>
+                </RadzenCard>
+
+            </div>
+        </RadzenColumn>
+
+    </div>
+</RadzenRow>
+
+
+@code {
+    // Código para anotações do usuário
+
+    private string notaUsuario { get; set; }
+
+    private void OnFocus(FocusEventArgs e)
+    {
+        if (string.IsNullOrEmpty(notaUsuario))
+        {
+            notaUsuario = "• ";
+        }
+    }
+
+    private async Task HandleInput(ChangeEventArgs e)
+    {
+        // Atualize o valor da textarea com base na entrada do usuário
+        var value = e.Value?.ToString();
+
+        if (!string.IsNullOrEmpty(value) && value.EndsWith("\n"))
+        {
+            // Adiciona o bullet à nova linha
+            notaUsuario = value + "• ";
+            await InvokeAsync(StateHasChanged);
+        }
+    }
+
+}
+
+@code{
+    // Código para notícias
+
+    private List<string> noticias1 = new List<string>
+    {
+        "Mercado global de fazendas urbanas deve movimentar US$ 236 bilhões em 2024",
+        "Exportações do agro mineiro batem novo recorde no período de janeiro a abril  (Exame)",
+        "Educação no agro: por que crianças devem saber mais sobre alimentos e cultivos (Forbes)",
+        "PIB paulista cresce 2,3% em março impulsionado pelo agro e indústria (Governo do Estado de São Paulo)",
+        "Combate ao Greening: SP cria linha de crédito para citricultores (Band)",
+        "Agro do RS estima perdas de R$ 3 bi e uma década para recuperar produções inundadas (CNN)"
+    };
+}
+
+
+@code {
+    // Código para data e hora
+
+    private string dataAtual { get; set; }
+    private string horaAtual { get; set; }
+
+    protected override void OnInitialized()
+    {
+        AtualizarDataHora();
+        _ = AtualizarDataHoraPeriodicamente();
+    }
+
+    private void AtualizarDataHora()
+    {
+        // Formata a data: "quarta-feira, 8 de novembro de 2023"
+        dataAtual = DateTime.Now.ToString("dddd, dd 'de' MMMM 'de' yyyy");
+
+        // Formata a hora: "14:35"
+        horaAtual = DateTime.Now.ToString("HH:mm");
+    }
+
+    private async Task AtualizarDataHoraPeriodicamente()
+    {
+        while (true)
+        {
+            AtualizarDataHora();
+            await InvokeAsync(StateHasChanged); // Atualiza a UI
+            await Task.Delay(1000); // Atualiza a cada segundo
+        }
+    }
+}

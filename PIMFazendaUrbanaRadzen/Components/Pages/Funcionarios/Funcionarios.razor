@@ -1,0 +1,223 @@
+@page "/funcionarios"
+@using PIMFazendaUrbanaRadzen.Services
+@using PIMFazendaUrbanaAPI.DTOs
+@*@attribute [Authorize(Policy = "Gerente")]*@
+@inject PIMFazendaUrbanaRadzen.Services.AuthService AuthService
+
+<PageTitle>Funcionários</PageTitle>
+
+@if (accessAllowed == true)
+{
+    <RadzenStack>
+        <RadzenRow AlignItems="AlignItems.Center" Style="width: 100%; padding: 0; margin: 0;">
+            <RadzenColumn Size="12" SizeMD="6">
+                <RadzenText Text="Funcionários" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+            </RadzenColumn>
+            <RadzenColumn Size="12" SizeMD="6">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+
+                    <!-- Botão Exportar-->
+                    <RadzenSplitButton ButtonStyle="ButtonStyle.Secondary"
+                                       Icon="get_app"
+                                       Text="Exportar"
+                                       Variant="Radzen.Variant.Filled"
+                                       Shade="Radzen.Shade.Lighter"
+                                       IconColor="black"
+                                       Click="OnExportarClick">
+                        <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                        <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                    </RadzenSplitButton>
+
+                    <!-- Botão Adicionar -->
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" Icon="add_circle_outline" Text="Adicionar" Click="@AddButtonClick" Variant="Radzen.Variant.Filled" Shade="Radzen.Shade.Light" />
+
+                </RadzenStack>
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenTextBox Placeholder="Procurar..." style="display: block; width: 100%" @oninput="@(args => OnSearch(args.Value.ToString()))" />
+
+        <RadzenRow Style="width: 100%; padding: 0; margin: 0;">
+            <RadzenColumn SizeMD="12" Style="width: 100%; padding: 0; margin: 0;">
+                <RadzenDataGrid @ref="grid0"
+                                Data="@funcionarios"
+                                TItem="FuncionarioDTO"
+                                AllowFiltering="true"
+                                FilterMode="FilterMode.Advanced"
+                                AllowPaging="true"
+                                AllowSorting="true"
+                                ShowPagingSummary="true"
+                                PageSizeOptions="@(new int[]{5, 10, 20, 30})"
+                                AllowColumnResize="true"
+                                PageSizeText="Itens por página"
+                                PageTitleFormat="Página {0}"
+                                PagingSummaryFormat="Página {0} de {1} ({2} itens)"
+                                PrevPageAriaLabel="Ir para a página anterior"
+                                PrevPageTitle="Página anterior"
+                                EmptyText="Sem itens para mostrar"
+                                PageAriaLabelFormat="Ir para a página {0}"
+                                NextPageAriaLabel="Ir para a próxima página"
+                                NextPageTitle="Próxima página"
+                                LastPageTitle="Última página"
+                                FirstPageTitle="Primeira página"
+                                EndsWithText="Termina com..."
+                                EnumFilterSelectText="Selecionar..."
+                                EqualsText="Igual a..."
+                                FilterText="Filtrar"
+                                FirstPageAriaLabel="Ir para a primeira página"
+                                GreaterThanText="Maior que..."
+                                GreaterThanOrEqualsText="Igual ou maior que..."
+                                IsNullText="Nulo"
+                                IsNotNullText="Não nulo"
+                                LastPageAriaLabel="Ir para a última página"
+                                LessThanText="Menor que..."
+                                LessThanOrEqualsText="Igual ou menor que..."
+                                OrOperatorText="Ou"
+                                AndOperatorText="E"
+                                ApplyFilterText="Aplicar"
+                                ClearFilterText="Limpar"
+                                ColumnsText="Colunas"
+                                ContainsText="Contém..."
+                                DoesNotContainText="Não contém..."
+                                StartsWithText="Começa com..."
+                                IsNotEmptyText="Não é vazio"
+                                IsEmptyText="É vazio"
+                                NotEqualsText="Não é igual a..."
+                                AllColumnsText="Todas"
+                                ColumnsShowingText="Exibir colunas"
+                                LogicalOperatorAriaLabel="Operador de filtro lógico"
+                                EnumNullFilterText="Sem valor"
+                                FilterToggleAriaLabel="Alternar"
+                                FilterOperatorAriaLabel="Filtrar operador"
+                                FilterValueAriaLabel="Filtrar valor"
+                                SecondFilterOperatorAriaLabel="Segundo operador de filtro"
+                                SecondFilterValueAriaLabel="Segundo valor de filtro"
+                                GroupPanelText="Arrastar cabeçalho de coluna"
+                                ExpandChildItemAriaLabel="Expandir item filho"
+                                ExpandGroupAriaLabel="Expandir grupo"
+                                RemoveGroupAriaLabel="Remover grupo"
+                                SelectVisibleColumnsAriaLabel="Selecionar colunas visíveis"
+                                class="data-grid-com-muitas-colunas">
+
+                    <Columns>
+                        <!-- Coluna para Id -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Property="Id" Title="Id" Width="6%">
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna para Nome com tooltip -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Property="Nome" Title="Nome" Width="13%">
+                            <Template Context="funcionario">
+                                <span title="@funcionario.Nome">@funcionario.Nome</span> <!-- Tooltip com o nome completo -->
+                            </Template>
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna para Usuario com tooltip -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Property="Usuário" Title="Usuário" Width="13%">
+                            <Template Context="funcionario">
+                                <span title="@funcionario.Usuario">@funcionario.Usuario</span> <!-- Tooltip com o usuário completo -->
+                            </Template>
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna para Cargo com tooltip -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Property="Cargo" Title="Cargo" Width="13%">
+                            <Template Context="funcionario">
+                                <span title="@funcionario.Cargo">@funcionario.Cargo</span> <!-- Tooltip com o Cargo completo -->
+                            </Template>
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna para Email com tooltip -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Property="Email" Title="Email" Width="17%">
+                            <Template Context="funcionario">
+                                <span title="@funcionario.Email">@funcionario.Email</span> <!-- Tooltip com o email completo -->
+                            </Template>
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna para CPF com tooltip -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Property="CPF" Title="CPF" Width="10%">
+                            <Template Context="funcionario">
+                                <span title="@funcionario.CPF">@funcionario.CPF</span> <!-- Tooltip com o CPF completo -->
+                            </Template>
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna customizada para Telefone -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Title="Telefone" Width="10%">
+                            <Template Context="funcionario">
+                                @if (funcionario.Telefone != null)
+                                {
+                                    <span title="@($"({funcionario.Telefone.DDD}) {funcionario.Telefone.Numero}")">
+                                        @($"({funcionario.Telefone.DDD}) {funcionario.Telefone.Numero}")
+                                    </span> <!-- Tooltip com o telefone completo -->
+                                }
+                            </Template>
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna customizada para Endereço -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Title="Endereço" Width="30%">
+                            <Template Context="funcionario">
+                                @if (funcionario.Endereco != null)
+
+                                {
+                                    <span title="@($"{funcionario.Endereco.Logradouro}, {funcionario.Endereco.Numero}, {funcionario.Endereco.Bairro}, {funcionario.Endereco.Cidade} - {funcionario.Endereco.UF}")">
+                                        @($"{funcionario.Endereco.Logradouro}, {funcionario.Endereco.Numero}, {funcionario.Endereco.Bairro}, {funcionario.Endereco.Cidade} - {funcionario.Endereco.UF}")
+                                    </span> <!-- Tooltip com o endereço completo -->
+                                }
+                            </Template>
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna para CEP com tooltip -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Property="Endereco.CEP" Title="CEP" Width="7%">
+                            <Template Context="funcionario">
+                                <span title="@funcionario.Endereco.CEP">@funcionario.Endereco.CEP</span> <!-- Tooltip com o CEP completo -->
+                            </Template>
+                        </RadzenDataGridColumn>
+
+                        <!-- Coluna customizada para botões de ação -->
+                        <RadzenDataGridColumn TItem="FuncionarioDTO" Filterable="false" Sortable="false" TextAlign="TextAlign.Center" Width="7%" MinWidth="110px">
+                            <Template Context="funcionario">
+                                <RadzenButton ButtonStyle="ButtonStyle.Primary"
+                                              Icon="edit"
+                                              Size="ButtonSize.Medium"
+                                              Shade="Shade.Lighter"
+                                              Variant="Variant.Flat"
+                                              Click="@(() => EditarFuncionario(funcionario))"
+                                              @onclick:stopPropagation="true"
+                                              Style="color: #ffffff; background-color: rgba(66, 154, 255, 0.68)" />
+                                <RadzenButton ButtonStyle="ButtonStyle.Danger"
+                                              Icon="delete"
+                                              Size="ButtonSize.Medium"
+                                              Shade="Shade.Lighter"
+                                              Variant="Variant.Flat"
+                                              Click="@(() => ExcluirFuncionario(funcionario))"
+                                              @onclick:stopPropagation="true" />
+                            </Template>
+                        </RadzenDataGridColumn>
+                    </Columns>
+                </RadzenDataGrid>
+            </RadzenColumn>
+        </RadzenRow>
+    </RadzenStack>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div style="color:red;">@errorMessage</div> <!-- Exibe erro em vermelho -->
+    }
+}
+else
+{
+    NavigationManager.NavigateTo("/acesso-negado");
+}
+
+@code {
+
+    private bool accessAllowed = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        var isGerente = await AuthService.IsGerente();
+
+        if (isGerente == true)
+        {
+            accessAllowed = true;
+        }
+    }
+}

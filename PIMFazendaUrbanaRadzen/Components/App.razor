@@ -1,0 +1,59 @@
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="@NavigationManager.BaseUri" />
+    <RadzenTheme @rendermode="@InteractiveServer" Theme="material" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="icon" href="favicon.ico" />
+    <HeadOutlet @rendermode="@InteractiveServer" />
+</head>
+
+<body>
+    <!-- CascadingAuthenticationState permite que a autenticação seja compartilhada nos componentes -->
+    <CascadingAuthenticationState>
+        <Routes @rendermode="@InteractiveServer" />
+    </CascadingAuthenticationState>
+
+    <script src="_framework/blazor.web.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js?v=@(typeof(Radzen.Colors).Assembly.GetName().Version)"></script>
+
+    <!-- Script para download de arquivos -->
+    <script>
+        function downloadFile(fileName, byteBase64) {
+            const link = document.createElement('a');
+            link.href = 'data:application/octet-stream;base64,' + byteBase64;
+            link.download = fileName;
+            link.click();
+        }
+    </script>
+</body>
+</html>
+
+@code {
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; }
+
+    [Inject]
+    private ThemeService ThemeService { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        if (HttpContext != null)
+        {
+            var theme = HttpContext.Request.Cookies["MyApplicationTheme"];
+
+            if (!string.IsNullOrEmpty(theme))
+            {
+                ThemeService.SetTheme(theme, false);
+            }
+        }
+    }
+}

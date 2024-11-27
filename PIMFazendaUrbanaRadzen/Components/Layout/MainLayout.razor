@@ -1,0 +1,178 @@
+@inject CookieThemeService CookieThemeService
+@inject PIMFazendaUrbanaRadzen.Services.AuthService AuthService
+@inherits LayoutComponentBase
+
+<RadzenDialog />
+<RadzenNotification />
+<RadzenTooltip />
+<RadzenContextMenu />
+
+<RadzenLayout style="grid-template-areas: 'rz-sidebar rz-header' 'rz-sidebar rz-body';">
+    <RadzenHeader>
+        <RadzenRow JustifyContent="JustifyContent.Start" AlignItems="AlignItems.Center" Gap="0" Style="background-color: var(--rz-primary)">
+            <RadzenColumn Size="5">
+                <RadzenSidebarToggle Click="@SidebarToggleClick"></RadzenSidebarToggle>
+            </RadzenColumn>
+            <RadzenColumn Size="7">
+                <RadzenStack AlignItems="AlignItems.Center" Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End">
+                    <RadzenAppearanceToggle />
+                    <RadzenProfileMenu Click="@ProfileMenuClick" Style="background-color: #1eba2a">
+                        <ChildContent>
+                            <RadzenProfileMenuItem Path="profile" Icon="settings" Text="Profile" />
+                            <RadzenProfileMenuItem Path="application-users" Icon="person" Text="Users" />
+                            <RadzenProfileMenuItem Path="application-roles" Icon="security" Text="Roles" />
+                            <RadzenProfileMenuItem Text="Logout" Value="Logout" Icon="power_settings_new" />
+                        </ChildContent>
+                        <Template>
+                            <RadzenLabel Text="@bemvindo" />
+                            <RadzenLabel Text="@usuario" />
+                        </Template>
+                    </RadzenProfileMenu>
+                </RadzenStack>
+            </RadzenColumn>
+        </RadzenRow>
+    </RadzenHeader>
+    <RadzenBody Expanded="@sidebarExpanded">
+        <RadzenRow class="rz-mx-auto rz-px-2 rz-pt-1 rz-pt-md-1 rz-pt-lg-1 rz-pt-xl-1 rz-pb-1 rz-pb-lg-1" Style="max-width: 1920px;">
+            <RadzenColumn Size="12">
+            @Body
+            </RadzenColumn>
+        </RadzenRow>
+    </RadzenBody>
+    <RadzenSidebar Expanded="@sidebarExpanded" style="z-index: 2; background-color: var(--rz-primary); visibility: visible; max-width: 250px">
+        <RadzenStack AlignItems="Radzen.AlignItems.Center" class="rz-py-2 rz-py-lg-3" Style="padding: var(--rz-panel-menu-item-padding); border-bottom: var(--rz-panel-menu-item-border);">
+            <RadzenImage Path="images/logo.png"  style="width: 128px; height: 128px"></RadzenImage>
+            <RadzenText Text="Farm System" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" class="rz-mb-0" style="color: #ffffff; font-size: 30px" />
+        </RadzenStack>
+        <RadzenPanelMenu Style="background-color: #1eba2a; color: #ffffff">
+            <RadzenPanelMenuItem Text="Home" Path="" >
+                <Template>
+                    <div>
+                        <img src="/images/Home_white.png" alt="Ícone Home" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Home</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Funcionários" Path="funcionarios">
+                <Template>
+                    <div style="display: flex; align-items: center;">
+                        <img src="/images/Funcionarios.png" alt="Ícone Funcionários" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Funcionários</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Clientes" Path="clientes">
+                <Template>
+                    <div style="display: flex; align-items: center;">
+                        <img src="/images/Clientes.png" alt="Ícone Clientes" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Clientes</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Fornecedores" Path="fornecedores">
+                <Template>
+                    <div style="display: flex; align-items: center;">
+                        <img src="/images/Fornecedores.png" alt="Ícone Fornecedores" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Fornecedores</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Insumos" Path="insumos">
+                <Template>
+                    <div style="display: flex; align-items: center;">
+                        <img src="/images/Insumos.png" alt="Ícone Insumos" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Insumos</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Produção" Path="producao">
+                <Template>
+                    <div style="display: flex; align-items: center;">
+                        <img src="/images/Producao.png" alt="Ícone Produção" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Produção</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Cultivos" Path="cultivos">
+                <Template>
+                    <div style="display: flex; align-items: center;">
+                        <img src="/images/Producao.png" alt="Ícone Produção" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Cultivos</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Compras" Path="compras">
+                <Template>
+                    <div style="display: flex; align-items: center;">
+                        <img src="/images/Compras.png" alt="Ícone Compras" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Compras</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Vendas" Path="vendas">
+                <Template>
+                    <div style="display: flex; align-items: center;">
+                        <img src="/images/Vendas.png" alt="Ícone Vendas" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Vendas</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Recomendações de plantio" Path="recomendacoes">
+                <Template>
+                    <div style="display: flex; align-items: center;">
+                        <img src="/images/Recomendacoes.png" alt="Ícone Recomendações" style="width:28px; height:28px; margin-right:12px;" />
+                        <span>Recomendações de plantio</span>
+                    </div>
+                </Template>
+            </RadzenPanelMenuItem>
+            <!-- 
+            <RadzenPanelMenuItem Text="Opções"  >
+                <RadzenPanelMenuItem Text="OpportunityStatuses" Path="opportunity-statuses" />
+                <RadzenPanelMenuItem Text="TaskStatuses" Path="task-statuses" />
+                <RadzenPanelMenuItem Text="TaskTypes" Path="task-types" />
+            </RadzenPanelMenuItem>
+            -->
+        </RadzenPanelMenu>
+        <RadzenStack AlignItems="Radzen.AlignItems.Center" Gap="0" class="rz-mt-2 rz-py-1 rz-py-lg-1" Style="padding: var(--rz-panel-menu-item-padding);">
+            <RadzenText Text="Farm System v2.0.0" TextStyle="Radzen.Blazor.TextStyle.Caption" style="color: #ffffff" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center" />
+            <RadzenText Text="Copyright Ⓒ 2024" TextStyle="Radzen.Blazor.TextStyle.Caption" class="rz-mb-0" style="color: #ffffff" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center" />
+        </RadzenStack>
+    </RadzenSidebar>
+</RadzenLayout>
+
+@code {
+    protected override void OnInitialized()
+    {
+        Console.WriteLine("MainLayout initialized");
+    }
+
+    private string usuario { get; set; } = "Carregando...";
+    private string bemvindo { get; set; } = "Bem vindo(a), ";
+
+    private bool isInitialized = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && !isInitialized)
+        {
+            var user = await AuthService.GetCurrentUserAsync();
+            usuario = user?.Nome ?? "Usuário não encontrado";
+
+            if (user?.Sexo == "F")
+            {
+                bemvindo = "Bem vinda, ";
+            }
+            else if (user?.Sexo == "M")
+            {
+                bemvindo = "Bem vindo, ";
+            }
+            else
+            {
+                bemvindo = "Bem vindo(a), ";
+            }
+
+            isInitialized = true;
+            StateHasChanged(); // Atualiza a interface
+        }
+    }
+}

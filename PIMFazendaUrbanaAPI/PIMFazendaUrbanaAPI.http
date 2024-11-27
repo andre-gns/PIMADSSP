@@ -1,0 +1,8 @@
+@PIMFazendaUrbanaAPI_HostAddress = http://localhost:5026
+GET {{PIMFazendaUrbanaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+### Testando no IIS Express
+@PIMFazendaUrbanaAPI_HostAddress_IIS = https://localhost:44300
+GET {{PIMFazendaUrbanaAPI_HostAddress_IIS}}/weatherforecast/
+Accept: application/json

@@ -1,0 +1,228 @@
+@page "/fornecedores"
+@using PIMFazendaUrbanaRadzen.Services
+@using PIMFazendaUrbanaAPI.DTOs
+@* @attribute [Authorize] *@
+
+<PageTitle>Fornecedores</PageTitle>
+
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center" Style="width: 100%; padding: 0; margin: 0;">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Fornecedores" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+
+                <!-- Botão Exportar-->
+                <RadzenSplitButton ButtonStyle="ButtonStyle.Secondary"
+                                   Icon="get_app"
+                                   Text="Exportar"
+                                   Variant="Radzen.Variant.Filled"
+                                   Shade="Radzen.Shade.Lighter"
+                                   IconColor="black"
+                                   Click="OnExportarClick">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+
+                <!-- Botão Adicionar -->
+                <RadzenButton ButtonStyle="ButtonStyle.Primary" Icon="add_circle_outline" Text="Adicionar" Click="@AddButtonClick" Variant="Radzen.Variant.Filled" Shade="Radzen.Shade.Light" />
+
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+
+    <RadzenTextBox Placeholder="Procurar..." style="display: block; width: 100%" @oninput="@(args => OnSearch(args.Value.ToString()))" />
+
+    <RadzenRow Style="width: 100%; padding: 0; margin: 0;">
+        <RadzenColumn SizeMD="12" Style="width: 100%; padding: 0; margin: 0;">
+            <RadzenDataGrid @ref="grid0"
+                            Data="@fornecedores"
+                            TItem="FornecedorDTO"
+                            AllowFiltering="true"
+                            FilterMode="FilterMode.Advanced"
+                            AllowPaging="true"
+                            AllowSorting="true"
+                            ShowPagingSummary="true"
+                            PageSizeOptions="@(new int[]{5, 10, 20, 30})"
+                            AllowColumnResize="true"
+                            PageSizeText="Itens por página"
+                            PageTitleFormat="Página {0}"
+                            PagingSummaryFormat="Página {0} de {1} ({2} itens)"
+                            PrevPageAriaLabel="Ir para a página anterior"
+                            PrevPageTitle="Página anterior"
+                            EmptyText="Sem itens para mostrar"
+                            PageAriaLabelFormat="Ir para a página {0}"
+                            NextPageAriaLabel="Ir para a próxima página"
+                            NextPageTitle="Próxima página"
+                            LastPageTitle="Última página"
+                            FirstPageTitle="Primeira página"
+                            EndsWithText="Termina com..."
+                            EnumFilterSelectText="Selecionar..."
+                            EqualsText="Igual a..."
+                            FilterText="Filtrar"
+                            FirstPageAriaLabel="Ir para a primeira página"
+                            GreaterThanText="Maior que..."
+                            GreaterThanOrEqualsText="Igual ou maior que..."
+                            IsNullText="Nulo"
+                            IsNotNullText="Não nulo"
+                            LastPageAriaLabel="Ir para a última página"
+                            LessThanText="Menor que..."
+                            LessThanOrEqualsText="Igual ou menor que..."
+                            OrOperatorText="Ou"
+                            AndOperatorText="E"
+                            ApplyFilterText="Aplicar"
+                            ClearFilterText="Limpar"
+                            ColumnsText="Colunas"
+                            ContainsText="Contém..."
+                            DoesNotContainText="Não contém..."
+                            StartsWithText="Começa com..."
+                            IsNotEmptyText="Não é vazio"
+                            IsEmptyText="É vazio"
+                            NotEqualsText="Não é igual a..."
+                            AllColumnsText="Todas"
+                            ColumnsShowingText="Exibir colunas"
+                            LogicalOperatorAriaLabel="Operador de filtro lógico"
+                            EnumNullFilterText="Sem valor"
+                            FilterToggleAriaLabel="Alternar"
+                            FilterOperatorAriaLabel="Filtrar operador"
+                            FilterValueAriaLabel="Filtrar valor"
+                            SecondFilterOperatorAriaLabel="Segundo operador de filtro"
+                            SecondFilterValueAriaLabel="Segundo valor de filtro"
+                            GroupPanelText="Arrastar cabeçalho de coluna"
+                            ExpandChildItemAriaLabel="Expandir item filho"
+                            ExpandGroupAriaLabel="Expandir grupo"
+                            RemoveGroupAriaLabel="Remover grupo"
+                            SelectVisibleColumnsAriaLabel="Selecionar colunas visíveis"
+                            class="data-grid-com-muitas-colunas">
+
+                <Columns>
+                    <!-- Coluna para Id -->
+                    <RadzenDataGridColumn TItem="FornecedorDTO" Property="Id" Title="Id" Width="4%" MinWidth="35px" Filterable="false">
+                    </RadzenDataGridColumn>
+
+                    <!-- Coluna para Nome com tooltip -->
+                    <RadzenDataGridColumn TItem="FornecedorDTO" Property="Nome" Title="Nome" Width="12%" MinWidth="150px">
+                        <Template Context="fornecedor">
+                            <span title="@fornecedor.Nome">@fornecedor.Nome</span> <!-- Tooltip com o nome completo -->
+                        </Template>
+                    </RadzenDataGridColumn>
+
+                    <!-- Coluna para Email com tooltip -->
+                    <RadzenDataGridColumn TItem="FornecedorDTO" Property="Email" Title="Email" Width="17%">
+                        <Template Context="fornecedor">
+                            <span title="@fornecedor.Email">@fornecedor.Email</span> <!-- Tooltip com o email completo -->
+                        </Template>
+                    </RadzenDataGridColumn>
+
+                    <!-- Coluna para CNPJ com tooltip -->
+                    <RadzenDataGridColumn TItem="FornecedorDTO" Property="CNPJ" Title="CNPJ" Width="10%" Sortable="false">
+                        <Template Context="fornecedor">
+                            @if (fornecedor.CNPJ != null)
+
+
+
+                            {
+                                <span title="@FormatarCNPJ(fornecedor.CNPJ)">
+                                    @FormatarCNPJ(fornecedor.CNPJ)
+                                </span> <!-- Tooltip com o CNPJ completo -->
+                            }
+                        </Template>
+                    </RadzenDataGridColumn>
+
+                    <!-- Coluna customizada para Telefone -->
+                    <RadzenDataGridColumn TItem="FornecedorDTO" Property="Telefone.Numero" Title="Telefone" Width="9%" Sortable="true">
+                        <Template Context="fornecedor">
+                            @if (fornecedor.Telefone != null)
+
+
+
+                            {
+                                <span title="@FormatarTelefone(fornecedor.Telefone.DDD, fornecedor.Telefone.Numero)">
+                                    @FormatarTelefone(fornecedor.Telefone.DDD, fornecedor.Telefone.Numero)
+                                </span> <!-- Tooltip com o telefone completo -->
+                            }
+                        </Template>
+                    </RadzenDataGridColumn>
+
+                    <RadzenDataGridColumn TItem="FornecedorDTO" Title="Endereço" Width="37%">
+                        <Template Context="fornecedor">
+                            @if (fornecedor.Endereco != null)
+
+
+
+                            {
+                                <span title="@($"{fornecedor.Endereco.Logradouro}, {fornecedor.Endereco.Numero}, {fornecedor.Endereco.Bairro}, {fornecedor.Endereco.Cidade} - {fornecedor.Endereco.UF}")">
+                                    @($"{fornecedor.Endereco.Logradouro}, {fornecedor.Endereco.Numero}, {fornecedor.Endereco.Bairro}, {fornecedor.Endereco.Cidade} - {fornecedor.Endereco.UF}")
+                                </span>
+                            }
+                        </Template>
+                        <FilterTemplate>
+                            <RadzenCard>
+                                <RadzenRow>
+                                    <RadzenTextBox @bind-Value="enderecoFiltro" Placeholder="Filtrar endereço..." Style="flex: 1;" />
+                                </RadzenRow>
+                                <RadzenRow>
+                                    <RadzenStack Orientation="Orientation.Horizontal" Gap="1rem" JustifyContent="JustifyContent.Center" class="rz-mt-2" Style="width: 100%;">
+                                        <!-- Botão Confirmar -->
+                                        <RadzenButton Text="Aplicar" Click="@OnEnderecoFilterChanged"
+                                                      ButtonStyle="ButtonStyle.Primary"
+                                                      Style="width: 50%;" />
+                                        <!-- Botão Cancelar -->
+                                        <RadzenButton Text="Limpar" Click="@OnEnderecoFilterClear"
+                                                      ButtonStyle="ButtonStyle.Light"
+                                                      Style="width: 50%;" />
+                                    </RadzenStack>
+                                </RadzenRow>
+                            </RadzenCard>
+                        </FilterTemplate>
+                    </RadzenDataGridColumn>
+
+                    <!-- Coluna para CEP com tooltip -->
+                    <RadzenDataGridColumn TItem="FornecedorDTO" Title="CEP" Property="Endereco.CEP" Width="6%" Sortable="false">
+                        <Template Context="fornecedor">
+                            @if (fornecedor.Endereco.CEP != null)
+
+
+
+                            {
+                                <span title="@FormatarCEP(fornecedor.Endereco.CEP)">
+                                    @FormatarCEP(fornecedor.Endereco.CEP)
+                                </span> <!-- Tooltip com o CEP completo -->
+                            }
+                        </Template>
+                    </RadzenDataGridColumn>
+
+                    <!-- Coluna customizada para botões de ação -->
+                    <RadzenDataGridColumn TItem="FornecedorDTO" Filterable="false" Sortable="false" TextAlign="TextAlign.Center" Width="5%" MinWidth="110px">
+                        <Template Context="fornecedor">
+                            <RadzenButton ButtonStyle="ButtonStyle.Primary"
+                                          Icon="edit"
+                                          Size="ButtonSize.Medium"
+                                          Shade="Shade.Lighter"
+                                          Variant="Variant.Flat"
+                                          Click="@(() => EditarFornecedor(fornecedor))"
+                                          @onclick:stopPropagation="true"
+                                          Style="color: #ffffff; background-color: rgba(66, 154, 255, 0.68)" />
+                            <RadzenButton ButtonStyle="ButtonStyle.Danger"
+                                          Icon="delete"
+                                          Size="ButtonSize.Medium"
+                                          Shade="Shade.Lighter"
+                                          Variant="Variant.Flat"
+                                          Click="@(() => ExcluirFornecedor(fornecedor))"
+                                          @onclick:stopPropagation="true" />
+                        </Template>
+                    </RadzenDataGridColumn>
+                </Columns>
+            </RadzenDataGrid>
+        </RadzenColumn>
+    </RadzenRow>
+</RadzenStack>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+
+
+
+{
+    <div style="color:red;">@errorMessage</div> <!-- Exibe erro em vermelho -->
+}

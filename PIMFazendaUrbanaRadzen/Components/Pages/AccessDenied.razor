@@ -1,0 +1,29 @@
+﻿@page "/acesso-negado"
+@inject NavigationManager NavigationManager
+
+<RadzenRow JustifyContent="JustifyContent.Center" AlignItems="AlignItems.Center" Style="height: 85vh; display: flex;">
+    <RadzenColumn Size="12" style="text-align: center;">
+
+        <RadzenText Text="Acesso Negado" TextStyle="TextStyle.DisplayH2" Style="margin-bottom: 1rem; font-weight: 500;" TextAlign="TextAlign.Center" />
+
+        <RadzenImage Path="images/accessdenied-nedry.gif" Style="width: 400px; margin-bottom: 1rem;" />
+        
+        <RadzenText Text="Você não tem permissão para acessar essa página" TextStyle="TextStyle.H5" Style="margin-bottom: 1rem;" TextAlign="TextAlign.Center" TagName="TagName.P" />
+        
+        <RadzenButton 
+                      ButtonStyle="ButtonStyle.Danger"
+                      Icon="open_in_browser"
+                      Size="ButtonSize.Large"
+                      Shade="Shade.Lighter"
+                      Variant="Variant.Filled"
+                      Text="Voltar para Página Inicial" Click="OnGoHomeClick"/>
+    </RadzenColumn>
+</RadzenRow>
+
+@code {
+    private void OnGoHomeClick()
+    {
+        // Redirecionar para a página inicial ou uma página específica
+        NavigationManager.NavigateTo("/");
+    }
+}

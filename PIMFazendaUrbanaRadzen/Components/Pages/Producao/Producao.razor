@@ -1,0 +1,135 @@
+﻿@page "/producao"
+
+<PageTitle>Produção</PageTitle>
+
+<!-- Título na parte superior -->
+<div style="text-align: left; margin-bottom: 20px;">
+    <RadzenText Text="Produção" TextStyle="TextStyle.H3" TagName="TagName.H1" class="rz-mb-4" />
+</div>
+
+<!-- Barra de busca e botão exportar -->
+<div style="display: flex; align-items: center; margin-bottom: 10px; gap: 10px;">
+    <!-- Campo de busca -->
+    <RadzenTextBox Placeholder="Procurar..."
+                   Style="flex-grow: 1; width: auto; min-width: 100px;"
+                   @bind-Value="searchText"
+                   @oninput="FilterData" />
+
+    <!-- Botão Exportar -->
+    <RadzenSplitButton ButtonStyle="ButtonStyle.Secondary"
+                       Icon="get_app"
+                       Text="Exportar"
+                       Variant="Radzen.Variant.Filled"
+                       Shade="Radzen.Shade.Lighter"
+                       IconColor="black"
+                       Style="min-width: 140px; padding: 0px 0px !important;"
+                       class="split-button-menor"
+                       Click="OnExportarClick">
+        <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+        <RadzenSplitButtonItem Text="CSV" Value="csv" />
+    </RadzenSplitButton>
+
+    <!-- Botão Adicionar -->
+    <RadzenButton ButtonStyle="ButtonStyle.Primary"
+                  Icon="add_circle_outline"
+                  Text="Adicionar"
+                  Click="@AddButtonClick"
+                  Variant="Radzen.Variant.Filled"
+                  Shade="Radzen.Shade.Light" 
+                  Style="min-width: 120px; padding: 0px 0px !important;"
+                  class="botao-menor" 
+                  id="#botao-menor" />
+
+
+</div>
+
+<!-- DataGrid -->
+<div style="margin-top: 10px;">
+    <RadzenRow>
+        <RadzenDataGrid Data="@filteredData"
+                        TItem="dynamic"
+                        AllowFiltering="true"
+                        AllowSorting="true"
+                        AllowPaging="true"
+                        AllowResizing="true"
+                        EmptyText="Sem itens para mostrar"
+                        Style="border: 1px solid black; padding: 10px; width: 100%; height: auto; min-height: 300px; word-wrap: break-word; white-space: normal;">
+            <Columns>
+                <RadzenDataGridColumn TItem="dynamic" Property="ID" Title="ID" Filterable="true" Sortable="false" Width="10%" />
+                <RadzenDataGridColumn TItem="dynamic" Property="Variedade" Title="Variedade" Filterable="true" Sortable="true" Width="15%" />
+                <RadzenDataGridColumn TItem="dynamic" Property="Quantidade" Title="Quantidade" Filterable="false" Sortable="false" Width="15%" />
+                <RadzenDataGridColumn TItem="dynamic" Property="Unidade" Title="Unidade" Filterable="true" Sortable="false" Width="10%" />
+                <RadzenDataGridColumn TItem="dynamic" Property="Climatizado" Title="Climatizado" Filterable="true" Sortable="true" Width="10%" />
+                <RadzenDataGridColumn TItem="dynamic" Property="DataPlantio" Title="Data de Plantio" Filterable="true" Sortable="true" Width="15%" />
+                <RadzenDataGridColumn TItem="dynamic" Property="DataColheita" Title="Data de Colheita" Filterable="true" Sortable="true" Width="15%" />
+                <RadzenDataGridColumn TItem="dynamic" Property="Finalizado" Title="Finalizado" Filterable="true" Sortable="true" Width="10%" />
+            </Columns>
+        </RadzenDataGrid>
+    </RadzenRow>
+</div>
+
+@code {
+    private List<dynamic> dataGridNovoItems = new List<dynamic>
+    {
+        new { ID = "1", Variedade = "Alface", Quantidade = "10", Unidade = "kg", Climatizado = true, DataPlantio = "2024-11-01", DataColheita = "2024-12-01", Finalizado = false },
+        new { ID = "2", Variedade = "Tomate", Quantidade = "15", Unidade = "kg", Climatizado = false, DataPlantio = "2024-10-15", DataColheita = "2024-11-30", Finalizado = true }
+    };
+
+    private List<dynamic> filteredData;
+    private string searchText = string.Empty;
+
+    protected override void OnInitialized()
+    {
+        // Inicializa os dados filtrados com todos os itens
+        filteredData = dataGridNovoItems;
+    }
+
+    private void FilterData()
+    {
+        if (string.IsNullOrWhiteSpace(searchText))
+        {
+            filteredData = dataGridNovoItems;
+        }
+        else
+        {
+            string searchLower = searchText.ToLower();
+            filteredData = dataGridNovoItems.Where(item =>
+                item.ID.ToLower().Contains(searchLower) ||
+                item.Variedade.ToLower().Contains(searchLower) ||
+                item.Quantidade.ToLower().Contains(searchLower) ||
+                item.Unidade.ToLower().Contains(searchLower) ||
+                item.Climatizado.ToString().ToLower().Contains(searchLower) ||
+                item.DataPlantio.ToLower().Contains(searchLower) ||
+                item.DataColheita.ToLower().Contains(searchLower) ||
+                item.Finalizado.ToString().ToLower().Contains(searchLower)).ToList();
+        }
+    }
+
+    private void OnExportarClick(object args)
+    {
+        string exportType = args.ToString()?.ToLower();
+        if (exportType == "xlsx")
+        {
+            // Lógica para exportar para Excel
+            ExportToExcel();
+        }
+        else if (exportType == "csv")
+        {
+            // Lógica para exportar para CSV
+            ExportToCsv();
+        }
+    }
+
+    private void ExportToExcel()
+    {
+        // Adicione a lógica para exportar dados para Excel
+        Console.WriteLine("Exportando para Excel...");
+    }
+
+    private void ExportToCsv()
+    {
+        // Adicione a lógica para exportar dados para CSV
+        Console.WriteLine("Exportando para CSV...");
+    }
+
+}

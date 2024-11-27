@@ -1,0 +1,41 @@
+@inherits LayoutComponentBase
+
+<RadzenLayout style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+    <RadzenBody>
+        <RadzenStack AlignItems="AlignItems.Center" Gap="3">
+            <RadzenText Text="Aguarde, estamos verificando sua autenticação..." TextStyle="TextStyle.DisplayH3" />
+            <RadzenProgressBar Indeterminate="true" />
+        </RadzenStack>
+    </RadzenBody>
+</RadzenLayout>
+
+@*
+
+<RadzenDialog />
+<RadzenNotification />
+<RadzenTooltip />
+<RadzenContextMenu />
+
+
+<RadzenLayout style="background: url('images/crm-login-background.png'); background-size: cover;">
+    <RadzenBody>
+        <RadzenStack JustifyContent="Radzen.JustifyContent.Center" Class="rz-mx-auto rz-p-4" Style="max-width: 1440px; height: 100%;">
+            <RadzenCard class="rz-shadow-5 rz-border-radius-4" style="padding: 0; overflow: hidden">
+                <RadzenRow Gap="0">
+                    <RadzenColumn Size="12" SizeSM="6" Class="rz-background-color-primary rz-p-12" style="background-image: radial-gradient(circle at 4rem 4rem, #b2fc92 0%, #1eba2a 50%, #208a27 80%); position: relative;">
+                        <RadzenImage Path="images/logo-login.png" style="width: 100%; max-width: 500px;" />
+                        <RadzenText Text="Bem vindo ao Farm System!" TextStyle="Radzen.Blazor.TextStyle.H3" class="rz-mt-4 rz-mt-md-4 rz-pt-0 rz-mb-4 rz-color-white rz-display-none rz-display-sm-block" />
+                        <RadzenText TextStyle="Radzen.Blazor.TextStyle.Body1" class="rz-mb-12 rz-pb-0 rz-pb-md-12 rz-color-white rz-display-none rz-display-sm-block">
+                            Preencha seus dados de login para prosseguir.
+                        </RadzenText>
+                    </RadzenColumn>
+                    <RadzenColumn Size="12" SizeSM="6" class="rz-p-12">
+                        @Body
+                    </RadzenColumn>
+                </RadzenRow>
+            </RadzenCard>
+            <RadzenText Text="Farm System v.2.0.0, Copyright Ⓒ 2024" TextStyle="Radzen.Blazor.TextStyle.Caption" TextAlign="Radzen.TextAlign.Center" Style="width: 100%; margin-top: 20px" TagName="Radzen.Blazor.TagName.P" />
+        </RadzenStack>
+    </RadzenBody>
+</RadzenLayout>
+*@

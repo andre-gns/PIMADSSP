@@ -1,0 +1,5 @@
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PimProgram\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PimProgram\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.AssemblyInfoInputs.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PimProgram\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.AssemblyInfo.cs
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PimProgram\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.csproj.CoreCompileInputs.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PimProgram\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.MvcApplicationPartsAssemblyInfo.cache
