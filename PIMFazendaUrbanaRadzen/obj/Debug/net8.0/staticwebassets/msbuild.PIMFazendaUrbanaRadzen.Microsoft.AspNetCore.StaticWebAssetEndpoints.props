@@ -40,13 +40,25 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4t1pnfjllq"},{"Name":"integrity","Value":"sha256-mKcqBk\u002BBf3\u002BGnfOYkzVxnEGjA0o1SvhDrSf/UNc5\u002B2s="},{"Name":"label","Value":"_content/PIMFazendaUrbanaRadzen/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13449"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mKcqBk\u002BBf3\u002BGnfOYkzVxnEGjA0o1SvhDrSf/UNc5\u002B2s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Nov 2024 19:11:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13449"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mKcqBk\u002BBf3\u002BGnfOYkzVxnEGjA0o1SvhDrSf/UNc5\u002B2s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 21:29:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PIMFazendaUrbanaRadzen/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mKcqBk\u002BBf3\u002BGnfOYkzVxnEGjA0o1SvhDrSf/UNc5\u002B2s="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13449"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mKcqBk\u002BBf3\u002BGnfOYkzVxnEGjA0o1SvhDrSf/UNc5\u002B2s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Nov 2024 19:11:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13449"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mKcqBk\u002BBf3\u002BGnfOYkzVxnEGjA0o1SvhDrSf/UNc5\u002B2s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 21:29:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PIMFazendaUrbanaRadzen/FantasiaFarms.ico">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\FantasiaFarms.ico'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BpTZhkpchwh/Eghss/WiS\u002BdtGbDrfu9sobBB/fFmWX8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"128788"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022\u002BpTZhkpchwh/Eghss/WiS\u002BdtGbDrfu9sobBB/fFmWX8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 21:42:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PIMFazendaUrbanaRadzen/FantasiaFarms.im17py1kuk.ico">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\FantasiaFarms.ico'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"im17py1kuk"},{"Name":"integrity","Value":"sha256-\u002BpTZhkpchwh/Eghss/WiS\u002BdtGbDrfu9sobBB/fFmWX8="},{"Name":"label","Value":"_content/PIMFazendaUrbanaRadzen/FantasiaFarms.ico"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"128788"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022\u002BpTZhkpchwh/Eghss/WiS\u002BdtGbDrfu9sobBB/fFmWX8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 21:42:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PIMFazendaUrbanaRadzen/favicon.6ej3nwek8m.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

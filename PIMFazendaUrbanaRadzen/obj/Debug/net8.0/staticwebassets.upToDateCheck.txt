@@ -2,6 +2,7 @@ wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
 wwwroot\css\FantasiaFarms.png
 wwwroot\css\site.css
+wwwroot\FantasiaFarms.ico
 wwwroot\favicon.ico
 wwwroot\images\accessdenied_1.gif
 wwwroot\images\accessdenied-nedry.gif

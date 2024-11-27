@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\FantasiaFarms.ico",
+      "PackagePath": "staticwebassets\\FantasiaFarms.ico"
+    },
+    {
       "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\css\\FantasiaFarms.png",
       "PackagePath": "staticwebassets\\css\\FantasiaFarms.png"
     },

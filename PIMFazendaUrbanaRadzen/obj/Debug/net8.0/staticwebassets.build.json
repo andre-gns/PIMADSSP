@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jD9kEwMQZDF7yiutbGlW70zAn9ESlWX65n5hBoh26zo=",
+  "Hash": "fBTCWW15krWXrN3Ounv1/fXo51u3tJBcAQUae1ovCsQ=",
   "Source": "PIMFazendaUrbanaRadzen",
   "BasePath": "_content/PIMFazendaUrbanaRadzen",
   "Mode": "Default",
@@ -846,6 +846,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\FantasiaFarms.ico",
+      "SourceId": "PIMFazendaUrbanaRadzen",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\",
+      "BasePath": "_content/PIMFazendaUrbanaRadzen",
+      "RelativePath": "FantasiaFarms#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "im17py1kuk",
+      "Integrity": "+pTZhkpchwh/Eghss/WiS+dtGbDrfu9sobBB/fFmWX8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\FantasiaFarms.ico"
     },
     {
       "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\favicon.ico",
@@ -5059,7 +5080,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 19:11:51 GMT"
+          "Value": "Wed, 27 Nov 2024 21:29:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5104,7 +5125,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 19:11:51 GMT"
+          "Value": "Wed, 27 Nov 2024 21:29:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5115,6 +5136,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-mKcqBk+Bf3+GnfOYkzVxnEGjA0o1SvhDrSf/UNc5+2s="
+        }
+      ]
+    },
+    {
+      "Route": "FantasiaFarms.ico",
+      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\FantasiaFarms.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+pTZhkpchwh/Eghss/WiS+dtGbDrfu9sobBB/fFmWX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 21:42:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+pTZhkpchwh/Eghss/WiS+dtGbDrfu9sobBB/fFmWX8="
+        }
+      ]
+    },
+    {
+      "Route": "FantasiaFarms.im17py1kuk.ico",
+      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\FantasiaFarms.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+pTZhkpchwh/Eghss/WiS+dtGbDrfu9sobBB/fFmWX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 21:42:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "im17py1kuk"
+        },
+        {
+          "Name": "label",
+          "Value": "FantasiaFarms.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+pTZhkpchwh/Eghss/WiS+dtGbDrfu9sobBB/fFmWX8="
         }
       ]
     },

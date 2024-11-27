@@ -9,6 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\favicon.ico" />
+    <Content Remove="wwwroot\images\accessdenied-nedry_1.gif" />
+    <Content Remove="wwwroot\images\ateste.png" />
+    <Content Remove="wwwroot\images\LogoPaginaInicial_1.png" />
+    <Content Remove="wwwroot\images\logo_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
     <PackageReference Include="Radzen.Blazor" Version="*" />
   </ItemGroup>
