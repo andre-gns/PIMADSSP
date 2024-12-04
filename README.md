@@ -43,6 +43,7 @@ Líder: André Araujo de Souza
 Back-end:
 
 André Araujo de Souza
+
 Fábio Faccioli
 
 
@@ -53,19 +54,28 @@ Felipe Gregório
 
 Front-end:
 
+
 Pedro Henrique P da R Silva
+
 Fabio Faccioli 
+
 André Araújo de Souza
+
 Felipe Gregório L Matos
+
 Felipe Pereira da Rocha Silva
 
 
 Documentação:
 
 Pedro Henrique P da R Silva
+
 Fabio Faccioli 
+
 André Araújo de Souza
+
 Felipe Gregório L Matos
+
 Felipe Pereira da Rocha Silva
 
 
