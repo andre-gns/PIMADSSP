@@ -34,17 +34,22 @@ Desenvolvemos uma aplicação web que visa auxiliar o controle de uma fazenda ur
 
 Desenvolvido em C#, utilizando .NET 8.0, ASP.NET, AutoMapper, Swagger, Blazor, e Radzen, com integração a banco de dados MySQL.
 
+
 Desenvolvido por:
+
 Líder: André Araujo de Souza
 
 Back-end:
+
 André Araujo de Souza
 Fábio Faccioli
 
 API:
+
 Felipe Gregório
 
 Front-end:
+
 Pedro Henrique P da R Silva
 Fabio Faccioli 
 André Araújo de Souza
@@ -52,6 +57,7 @@ Felipe Gregório L Matos
 Felipe Pereira da Rocha Silva
 
 Documentação:
+
 Pedro Henrique P da R Silva
 Fabio Faccioli 
 André Araújo de Souza
@@ -59,4 +65,5 @@ Felipe Gregório L Matos
 Felipe Pereira da Rocha Silva
 
 Sob orientação de:
+
 Prof. José Carlos Lorandi
