@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj": {}
+    "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj": {
+    "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj",
+        "projectUniqueName": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj",
         "projectName": "PIMFazendaUrbanaLib",
-        "projectPath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj",
+        "projectPath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj",
         "packagesPath": "C:\\Users\\Paola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\obj\\",
+        "outputPath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

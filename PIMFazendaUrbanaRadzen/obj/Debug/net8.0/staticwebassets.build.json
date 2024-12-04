@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fBTCWW15krWXrN3Ounv1/fXo51u3tJBcAQUae1ovCsQ=",
+  "Hash": "9nQva8uDWHWJfaxYkSrpPANisr8zcFVseh8OtuaLTSk=",
   "Source": "PIMFazendaUrbanaRadzen",
   "BasePath": "_content/PIMFazendaUrbanaRadzen",
   "Mode": "Default",
@@ -869,27 +869,6 @@
       "OriginalItemSpec": "wwwroot\\FantasiaFarms.ico"
     },
     {
-      "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\favicon.ico",
-      "SourceId": "PIMFazendaUrbanaRadzen",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\",
-      "BasePath": "_content/PIMFazendaUrbanaRadzen",
-      "RelativePath": "favicon#[.{fingerprint}]?.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "6ej3nwek8m",
-      "Integrity": "EqSrn+sL1t6y8i0z/a4Ml2qidkXA4bgoHWN1vdbBVqE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
       "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied_1.gif",
       "SourceId": "PIMFazendaUrbanaRadzen",
       "SourceType": "Discovered",
@@ -932,27 +911,6 @@
       "OriginalItemSpec": "wwwroot\\images\\accessdenied-nedry.gif"
     },
     {
-      "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied-nedry_1.gif",
-      "SourceId": "PIMFazendaUrbanaRadzen",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\",
-      "BasePath": "_content/PIMFazendaUrbanaRadzen",
-      "RelativePath": "images/accessdenied-nedry_1#[.{fingerprint}]?.gif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "h3m5ryuea3",
-      "Integrity": "4938jMLZdHnI97MSzDLaLAn4/M5MgsqzaJBfVRCZv+Y=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\accessdenied-nedry_1.gif"
-    },
-    {
       "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied-slj1.gif",
       "SourceId": "PIMFazendaUrbanaRadzen",
       "SourceType": "Discovered",
@@ -993,27 +951,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\accessdenied-slj2.gif"
-    },
-    {
-      "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\ateste.png",
-      "SourceId": "PIMFazendaUrbanaRadzen",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\",
-      "BasePath": "_content/PIMFazendaUrbanaRadzen",
-      "RelativePath": "images/ateste#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5v4ycgvbf1",
-      "Integrity": "IclI8oMDHxAv+HsfYoqAM56GEVC9XfgnDefgZM8Wr5U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ateste.png"
     },
     {
       "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\Atualizar.png",
@@ -1184,12 +1121,12 @@
       "OriginalItemSpec": "wwwroot\\images\\FantasiaFarms.png"
     },
     {
-      "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\FazendaUrbanaIcone.png",
+      "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\FantasiaFarmsIcone.png",
       "SourceId": "PIMFazendaUrbanaRadzen",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\",
       "BasePath": "_content/PIMFazendaUrbanaRadzen",
-      "RelativePath": "images/FazendaUrbanaIcone#[.{fingerprint}]?.png",
+      "RelativePath": "images/FantasiaFarmsIcone#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1198,11 +1135,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eeroqf4za1",
-      "Integrity": "Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4=",
+      "Fingerprint": "qoko2dwkvu",
+      "Integrity": "uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\FazendaUrbanaIcone.png"
+      "OriginalItemSpec": "wwwroot\\images\\FantasiaFarmsIcone.png"
     },
     {
       "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\Fornecedores.png",
@@ -1394,27 +1331,6 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\logo_1.png",
-      "SourceId": "PIMFazendaUrbanaRadzen",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\",
-      "BasePath": "_content/PIMFazendaUrbanaRadzen",
-      "RelativePath": "images/logo_1#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "eeroqf4za1",
-      "Integrity": "Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo_1.png"
-    },
-    {
       "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\logo-login.png",
       "SourceId": "PIMFazendaUrbanaRadzen",
       "SourceType": "Discovered",
@@ -1429,8 +1345,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ex17a0zquo",
-      "Integrity": "gv/k7KJvXBp5QavwJT0onL2hhPzVRw+fRMzGD3iYx0Q=",
+      "Fingerprint": "qoko2dwkvu",
+      "Integrity": "uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo-login.png"
@@ -1497,27 +1413,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\LogoPaginaInicial.xcf"
-    },
-    {
-      "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\LogoPaginaInicial_1.png",
-      "SourceId": "PIMFazendaUrbanaRadzen",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\",
-      "BasePath": "_content/PIMFazendaUrbanaRadzen",
-      "RelativePath": "images/LogoPaginaInicial_1#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "itqy88lteo",
-      "Integrity": "RnQiG8A4gvVIbqGq19VMQPCTLMN+jGJEkYysX9Uw2vw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\LogoPaginaInicial_1.png"
     },
     {
       "Identity": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\mostrarSenha.png",
@@ -5222,88 +5117,6 @@
       ]
     },
     {
-      "Route": "favicon.6ej3nwek8m.ico",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "96450"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EqSrn+sL1t6y8i0z/a4Ml2qidkXA4bgoHWN1vdbBVqE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6ej3nwek8m"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EqSrn+sL1t6y8i0z/a4Ml2qidkXA4bgoHWN1vdbBVqE="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "96450"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EqSrn+sL1t6y8i0z/a4Ml2qidkXA4bgoHWN1vdbBVqE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EqSrn+sL1t6y8i0z/a4Ml2qidkXA4bgoHWN1vdbBVqE="
-        }
-      ]
-    },
-    {
       "Route": "images/accessdenied_1.gif",
       "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied_1.gif",
       "Selectors": [],
@@ -5468,88 +5281,6 @@
       ]
     },
     {
-      "Route": "images/accessdenied-nedry_1.gif",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied-nedry_1.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "115205"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4938jMLZdHnI97MSzDLaLAn4/M5MgsqzaJBfVRCZv+Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4938jMLZdHnI97MSzDLaLAn4/M5MgsqzaJBfVRCZv+Y="
-        }
-      ]
-    },
-    {
-      "Route": "images/accessdenied-nedry_1.h3m5ryuea3.gif",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied-nedry_1.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "115205"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4938jMLZdHnI97MSzDLaLAn4/M5MgsqzaJBfVRCZv+Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h3m5ryuea3"
-        },
-        {
-          "Name": "label",
-          "Value": "images/accessdenied-nedry_1.gif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4938jMLZdHnI97MSzDLaLAn4/M5MgsqzaJBfVRCZv+Y="
-        }
-      ]
-    },
-    {
       "Route": "images/accessdenied-slj1.gif",
       "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied-slj1.gif",
       "Selectors": [],
@@ -5710,88 +5441,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-xe3crePzdI2M/5C99FuO1BdT1SgKXK4AtYwgxicm7BA="
-        }
-      ]
-    },
-    {
-      "Route": "images/ateste.5v4ycgvbf1.png",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\ateste.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "118762"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IclI8oMDHxAv+HsfYoqAM56GEVC9XfgnDefgZM8Wr5U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:53:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5v4ycgvbf1"
-        },
-        {
-          "Name": "label",
-          "Value": "images/ateste.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-IclI8oMDHxAv+HsfYoqAM56GEVC9XfgnDefgZM8Wr5U="
-        }
-      ]
-    },
-    {
-      "Route": "images/ateste.png",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\ateste.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "118762"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IclI8oMDHxAv+HsfYoqAM56GEVC9XfgnDefgZM8Wr5U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:53:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-IclI8oMDHxAv+HsfYoqAM56GEVC9XfgnDefgZM8Wr5U="
         }
       ]
     },
@@ -6452,8 +6101,8 @@
       ]
     },
     {
-      "Route": "images/FazendaUrbanaIcone.eeroqf4za1.png",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\FazendaUrbanaIcone.png",
+      "Route": "images/FantasiaFarmsIcone.png",
+      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\FantasiaFarmsIcone.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6462,7 +6111,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "94653"
+          "Value": "89481"
         },
         {
           "Name": "Content-Type",
@@ -6470,56 +6119,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4=\""
+          "Value": "\"uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eeroqf4za1"
-        },
-        {
-          "Name": "label",
-          "Value": "images/FazendaUrbanaIcone.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4="
-        }
-      ]
-    },
-    {
-      "Route": "images/FazendaUrbanaIcone.png",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\FazendaUrbanaIcone.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "94653"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
+          "Value": "Sun, 24 Nov 2024 14:39:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6529,7 +6133,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4="
+          "Value": "sha256-uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk="
+        }
+      ]
+    },
+    {
+      "Route": "images/FantasiaFarmsIcone.qoko2dwkvu.png",
+      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\FantasiaFarmsIcone.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:39:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qoko2dwkvu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/FantasiaFarmsIcone.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk="
         }
       ]
     },
@@ -7272,133 +6921,6 @@
       ]
     },
     {
-      "Route": "images/logo_1.eeroqf4za1.png",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\logo_1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "94653"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eeroqf4za1"
-        },
-        {
-          "Name": "label",
-          "Value": "images/logo_1.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4="
-        }
-      ]
-    },
-    {
-      "Route": "images/logo_1.png",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\logo_1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "94653"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Smm3KdME7iCPtn5vLC3/d3KWgQHAhNOfKfkgWdCXt/4="
-        }
-      ]
-    },
-    {
-      "Route": "images/logo-login.ex17a0zquo.png",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\logo-login.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "517788"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gv/k7KJvXBp5QavwJT0onL2hhPzVRw+fRMzGD3iYx0Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ex17a0zquo"
-        },
-        {
-          "Name": "label",
-          "Value": "images/logo-login.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gv/k7KJvXBp5QavwJT0onL2hhPzVRw+fRMzGD3iYx0Q="
-        }
-      ]
-    },
-    {
       "Route": "images/logo-login.ndrkehcsiy.xcf",
       "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\logo-login.xcf",
       "Selectors": [],
@@ -7454,7 +6976,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "517788"
+          "Value": "89481"
         },
         {
           "Name": "Content-Type",
@@ -7462,11 +6984,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gv/k7KJvXBp5QavwJT0onL2hhPzVRw+fRMzGD3iYx0Q=\""
+          "Value": "\"uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
+          "Value": "Sun, 24 Nov 2024 14:39:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7476,7 +6998,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gv/k7KJvXBp5QavwJT0onL2hhPzVRw+fRMzGD3iYx0Q="
+          "Value": "sha256-uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo-login.qoko2dwkvu.png",
+      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\logo-login.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:39:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qoko2dwkvu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo-login.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uhRlFsjz8C9N67uTUVMSFYJS7qJ1N0NIR5/awwNgJkk="
         }
       ]
     },
@@ -7678,88 +7245,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-BmHdc1krHMzocXe9XLpBsphlwusR3ISd313HVvPQ2p4="
-        }
-      ]
-    },
-    {
-      "Route": "images/LogoPaginaInicial_1.itqy88lteo.png",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\LogoPaginaInicial_1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "779122"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RnQiG8A4gvVIbqGq19VMQPCTLMN+jGJEkYysX9Uw2vw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "itqy88lteo"
-        },
-        {
-          "Name": "label",
-          "Value": "images/LogoPaginaInicial_1.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RnQiG8A4gvVIbqGq19VMQPCTLMN+jGJEkYysX9Uw2vw="
-        }
-      ]
-    },
-    {
-      "Route": "images/LogoPaginaInicial_1.png",
-      "AssetFile": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\LogoPaginaInicial_1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "779122"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RnQiG8A4gvVIbqGq19VMQPCTLMN+jGJEkYysX9Uw2vw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 17:14:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RnQiG8A4gvVIbqGq19VMQPCTLMN+jGJEkYysX9Uw2vw="
         }
       ]
     },

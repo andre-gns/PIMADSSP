@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PIMFazendaUrbanaRadzen",
-    "\\PIMFazendaUrbanaRadzen\\Components",
-    "\\PIMFazendaUrbanaRadzen\\Components\\Layout",
-    "\\PIMFazendaUrbanaRadzen\\Components\\Pages",
-    "\\PIMFazendaUrbanaRadzen\\wwwroot",
-    "\\PIMFazendaUrbanaRadzen\\wwwroot\\images"
+    "\\PIMFazendaUrbanaLib",
+    "\\PIMFazendaUrbanaLib\\bin",
+    "\\PIMFazendaUrbanaLib\\DataAccess"
   ],
-  "SelectedNode": "\\PIMFazendaUrbanaRadzen\\Components\\Layout\\LoginLayout.razor",
   "PreviewInSolutionExplorer": false
 }

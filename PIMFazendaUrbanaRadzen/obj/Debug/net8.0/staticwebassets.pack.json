@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\Atualizar.png",
       "PackagePath": "staticwebassets\\images\\Atualizar.png"
     },
@@ -49,8 +45,8 @@
       "PackagePath": "staticwebassets\\images\\FantasiaFarms.png"
     },
     {
-      "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\FazendaUrbanaIcone.png",
-      "PackagePath": "staticwebassets\\images\\FazendaUrbanaIcone.png"
+      "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\FantasiaFarmsIcone.png",
+      "PackagePath": "staticwebassets\\images\\FantasiaFarmsIcone.png"
     },
     {
       "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\Fornecedores.png",
@@ -89,10 +85,6 @@
       "PackagePath": "staticwebassets\\images\\LogoPaginaInicial.xcf"
     },
     {
-      "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\LogoPaginaInicial_1.png",
-      "PackagePath": "staticwebassets\\images\\LogoPaginaInicial_1.png"
-    },
-    {
       "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\Pesquisar.png",
       "PackagePath": "staticwebassets\\images\\Pesquisar.png"
     },
@@ -121,10 +113,6 @@
       "PackagePath": "staticwebassets\\images\\accessdenied-nedry.gif"
     },
     {
-      "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied-nedry_1.gif",
-      "PackagePath": "staticwebassets\\images\\accessdenied-nedry_1.gif"
-    },
-    {
       "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied-slj1.gif",
       "PackagePath": "staticwebassets\\images\\accessdenied-slj1.gif"
     },
@@ -135,10 +123,6 @@
     {
       "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\accessdenied_1.gif",
       "PackagePath": "staticwebassets\\images\\accessdenied_1.gif"
-    },
-    {
-      "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\ateste.png",
-      "PackagePath": "staticwebassets\\images\\ateste.png"
     },
     {
       "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\cancelar.png",
@@ -163,10 +147,6 @@
     {
       "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
-    },
-    {
-      "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\logo_1.png",
-      "PackagePath": "staticwebassets\\images\\logo_1.png"
     },
     {
       "Id": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\wwwroot\\images\\mostrarSenha.png",

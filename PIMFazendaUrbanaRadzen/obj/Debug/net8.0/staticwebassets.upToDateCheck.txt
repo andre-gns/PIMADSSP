@@ -3,13 +3,10 @@ wwwroot\css\bootstrap\bootstrap.min.css.map
 wwwroot\css\FantasiaFarms.png
 wwwroot\css\site.css
 wwwroot\FantasiaFarms.ico
-wwwroot\favicon.ico
 wwwroot\images\accessdenied_1.gif
 wwwroot\images\accessdenied-nedry.gif
-wwwroot\images\accessdenied-nedry_1.gif
 wwwroot\images\accessdenied-slj1.gif
 wwwroot\images\accessdenied-slj2.gif
-wwwroot\images\ateste.png
 wwwroot\images\Atualizar.png
 wwwroot\images\cancelar.png
 wwwroot\images\Clientes.png
@@ -18,7 +15,7 @@ wwwroot\images\Deletar.png
 wwwroot\images\editar.png
 wwwroot\images\ExportarRelatorio.png
 wwwroot\images\FantasiaFarms.png
-wwwroot\images\FazendaUrbanaIcone.png
+wwwroot\images\FantasiaFarmsIcone.png
 wwwroot\images\Fornecedores.png
 wwwroot\images\Funcionarios.png
 wwwroot\images\Home_black.png
@@ -28,12 +25,10 @@ wwwroot\images\Insumos.png
 wwwroot\images\Inventario.png
 wwwroot\images\login.jpg
 wwwroot\images\logo.png
-wwwroot\images\logo_1.png
 wwwroot\images\logo-login.png
 wwwroot\images\logo-login.xcf
 wwwroot\images\LogoPaginaInicial.png
 wwwroot\images\LogoPaginaInicial.xcf
-wwwroot\images\LogoPaginaInicial_1.png
 wwwroot\images\mostrarSenha.png
 wwwroot\images\notfound.gif
 wwwroot\images\Pesquisar.png
