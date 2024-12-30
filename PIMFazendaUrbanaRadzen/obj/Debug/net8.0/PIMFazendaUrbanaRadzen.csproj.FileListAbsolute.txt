@@ -192,3 +192,14 @@ C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Deb
 C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.pdb
 C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.genruntimeconfig.cache
 C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\ref\PIMFazendaUrbanaRadzen.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.csproj.AssemblyReference.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.AssemblyInfoInputs.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.AssemblyInfo.cs
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.csproj.CoreCompileInputs.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.MvcApplicationPartsAssemblyInfo.cs
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.MvcApplicationPartsAssemblyInfo.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.sourcelink.json
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\refint\PIMFazendaUrbanaRadzen.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\obj\Debug\net8.0\PIMFazendaUrbanaRadzen.pdb

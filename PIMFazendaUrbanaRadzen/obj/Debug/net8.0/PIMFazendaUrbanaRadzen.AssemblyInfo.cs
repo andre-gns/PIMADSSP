@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PIMFazendaUrbanaRadzen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+710968a3a83a95a1bf0432a029ed6f76301afb22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c6e4d4eca93d218b6bc436c0fb3153c8ce3749e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PIMFazendaUrbanaRadzen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PIMFazendaUrbanaRadzen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

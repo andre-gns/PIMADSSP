@@ -9,109 +9,109 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PIMFazendaUrbanaRadzen
 build_property.RootNamespace = PIMFazendaUrbanaRadzen
-build_property.ProjectDir = C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\
+build_property.ProjectDir = G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaRadzen
+build_property.MSBuildProjectDirectory = G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaRadzen
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/App.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Layout/LoginLayout.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Layout/LoginLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTG9naW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Layout/MainLayout.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Layout/RedirectToIndexLayout.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Layout/RedirectToIndexLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUmVkaXJlY3RUb0luZGV4TGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/AccessDenied.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/AccessDenied.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2Nlc3NEZW5pZWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Clientes/CadastrarCliente.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Clientes/CadastrarCliente.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRlc1xDYWRhc3RyYXJDbGllbnRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Clientes/Clientes.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Clientes/Clientes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRlc1xDbGllbnRlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Compras/CadastrarCompra.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Compras/CadastrarCompra.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wcmFzXENhZGFzdHJhckNvbXByYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Compras/Compras.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Compras/Compras.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wcmFzXENvbXByYXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Cultivos/Cultivos.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Cultivos/Cultivos.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdWx0aXZvc1xDdWx0aXZvcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Fornecedores/CadastrarFornecedor.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Fornecedores/CadastrarFornecedor.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb3JuZWNlZG9yZXNcQ2FkYXN0cmFyRm9ybmVjZWRvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Fornecedores/Fornecedores.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Fornecedores/Fornecedores.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb3JuZWNlZG9yZXNcRm9ybmVjZWRvcmVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Funcionarios/CadastrarFuncionario.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Funcionarios/CadastrarFuncionario.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGdW5jaW9uYXJpb3NcQ2FkYXN0cmFyRnVuY2lvbmFyaW8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Funcionarios/Funcionarios.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Funcionarios/Funcionarios.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGdW5jaW9uYXJpb3NcRnVuY2lvbmFyaW9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Index.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Login.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/NotFound.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Producao/CadastrarProducao.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Producao/CadastrarProducao.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWNhb1xDYWRhc3RyYXJQcm9kdWNhby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Producao/Producao.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Producao/Producao.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWNhb1xQcm9kdWNhby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Recomendacoes/Recomendacoes.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Recomendacoes/Recomendacoes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWNvbWVuZGFjb2VzXFJlY29tZW5kYWNvZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Vendas/CadastrarVenda.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Vendas/CadastrarVenda.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW5kYXNcQ2FkYXN0cmFyVmVuZGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Vendas/Vendas.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Pages/Vendas/Vendas.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW5kYXNcVmVuZGFzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Routes.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Paola/OneDrive/Desktop/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/_Imports.razor]
+[G:/Meu Drive/André/Faculdade Unip/3 semestre/PIM/PimFazendaUrbana2/PIMFazendaUrbanaRadzen/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

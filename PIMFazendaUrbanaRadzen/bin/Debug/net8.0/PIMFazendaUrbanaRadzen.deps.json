@@ -10,7 +10,7 @@
         "dependencies": {
           "Blazored.LocalStorage": "4.5.0",
           "PIMFazendaUrbanaAPI": "1.0.0",
-          "Radzen.Blazor": "5.6.7"
+          "Radzen.Blazor": "5.7.2"
         },
         "runtime": {
           "PIMFazendaUrbanaRadzen.dll": {}
@@ -423,7 +423,7 @@
           }
         }
       },
-      "Radzen.Blazor/5.6.7": {
+      "Radzen.Blazor/5.7.2": {
         "dependencies": {
           "DartSassBuilder": "1.0.0",
           "Microsoft.AspNetCore.Components": "8.0.0",
@@ -432,8 +432,8 @@
         },
         "runtime": {
           "lib/net8.0/Radzen.Blazor.dll": {
-            "assemblyVersion": "5.6.7.0",
-            "fileVersion": "5.6.7.0"
+            "assemblyVersion": "5.7.2.0",
+            "fileVersion": "5.7.2.0"
           }
         }
       },
@@ -1021,12 +1021,12 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-    "Radzen.Blazor/5.6.7": {
+    "Radzen.Blazor/5.7.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SsxxZNukBGBPd1Z6u3d++2qrT33D0bBGYJBJTiUVdhKA2RIQ3eUWmHpXouG6swAF1UuCYax5WbEXr3GtOlX1MA==",
-      "path": "radzen.blazor/5.6.7",
-      "hashPath": "radzen.blazor.5.6.7.nupkg.sha512"
+      "sha512": "sha512-KWagj4X7a2MJluxEY1zCCTojObo2vUxqlYD+9EgSeNqDqvX1QjB4fwYCiQhqgpXo9qlPRnPFY1Ybw2moUOChQw==",
+      "path": "radzen.blazor/5.7.2",
+      "hashPath": "radzen.blazor.5.7.2.nupkg.sha512"
     },
     "RBush/4.0.0": {
       "type": "package",

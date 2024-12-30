@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/TebWOxrDig=",
+  "dgSpecHash": "U56s+mwls7U=",
   "success": true,
-  "projectFilePath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj",
+  "projectFilePath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paola\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Paola\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",

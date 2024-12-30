@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanaradzen\\components\\pages\\vendas\\cadastrarvenda.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|solutionrelative:pimfazendaurbanaradzen\\components\\pages\\vendas\\cadastrarvenda.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanalib\\banco_inserts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|solutionrelative:pimfazendaurbanalib\\banco_inserts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanaradzen\\components\\pages\\funcionarios\\funcionarios.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|solutionrelative:pimfazendaurbanaradzen\\components\\pages\\funcionarios\\funcionarios.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanalib\\banco_criacao.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|solutionrelative:pimfazendaurbanalib\\banco_criacao.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanaradzen\\components\\pages\\compras\\cadastrarcompra.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|solutionrelative:pimfazendaurbanaradzen\\components\\pages\\compras\\cadastrarcompra.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanalib\\banco_inserts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|solutionrelative:pimfazendaurbanalib\\banco_inserts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanalib\\banco_comandosparateste.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|solutionrelative:pimfazendaurbanalib\\banco_comandosparateste.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11BEA62B-9D68-4D15-85E1-12908B8C4115}|PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11BEA62B-9D68-4D15-85E1-12908B8C4115}|PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj|solutionrelative:pimfazendaurbanaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11BEA62B-9D68-4D15-85E1-12908B8C4115}|PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{11BEA62B-9D68-4D15-85E1-12908B8C4115}|PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj|solutionrelative:pimfazendaurbanaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanaradzen\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|solutionrelative:pimfazendaurbanaradzen\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanaradzen\\components\\pages\\funcionarios\\funcionarios.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|solutionrelative:pimfazendaurbanaradzen\\components\\pages\\funcionarios\\funcionarios.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanalib\\banco_criacao.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|solutionrelative:pimfazendaurbanalib\\banco_criacao.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanaradzen\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F35908C-F944-456A-A48F-25EE27DA5D82}|PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj|solutionrelative:pimfazendaurbanaradzen\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanalib\\banco_inserts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|solutionrelative:pimfazendaurbanalib\\banco_inserts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanalib\\banco_comandosparateste.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|solutionrelative:pimfazendaurbanalib\\banco_comandosparateste.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|c:\\users\\paola\\onedrive\\desktop\\pimfazendaurbana2\\pimfazendaurbanalib\\banco_criacao.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{D97C167A-2998-4710-97B2-BF4FE85B15DC}|PIMFazendaUrbanaLib\\PIMFazendaUrbanaLib.csproj|solutionrelative:pimfazendaurbanalib\\banco_criacao.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,75 +34,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CadastrarVenda.razor",
-              "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Vendas\\CadastrarVenda.razor",
-              "RelativeDocumentMoniker": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Vendas\\CadastrarVenda.razor",
-              "ToolTip": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Vendas\\CadastrarVenda.razor",
-              "RelativeToolTip": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Vendas\\CadastrarVenda.razor",
-              "ViewState": "AgIAALEAAAAAAAAAAAAAALYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T19:30:27.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CadastrarCompra.razor",
-              "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Compras\\CadastrarCompra.razor",
-              "RelativeDocumentMoniker": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Compras\\CadastrarCompra.razor",
-              "ToolTip": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Compras\\CadastrarCompra.razor",
-              "RelativeToolTip": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Compras\\CadastrarCompra.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T19:21:40.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "banco_comandosparateste.sql ",
-              "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\banco_comandosparateste.sql",
-              "RelativeDocumentMoniker": "PIMFazendaUrbanaLib\\banco_comandosparateste.sql",
-              "ToolTip": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\banco_comandosparateste.sql",
-              "RelativeToolTip": "PIMFazendaUrbanaLib\\banco_comandosparateste.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-29T19:21:23.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "PIMFazendaUrbanaAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "PIMFazendaUrbanaAPI\\Controllers\\AuthController.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwDQAAAANAAAAAAAAAA==",
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Login.razor.cs",
+              "RelativeDocumentMoniker": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Login.razor.cs",
+              "ToolTip": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Login.razor.cs",
+              "RelativeToolTip": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Login.razor.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAjwCEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T18:51:03.173Z",
+              "WhenOpened": "2024-12-28T23:13:41.573Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "PIMFazendaUrbanaAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\appsettings.json",
-              "RelativeToolTip": "PIMFazendaUrbanaAPI\\appsettings.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-29T18:35:42.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "banco_inserts.sql ",
               "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\banco_inserts.sql",
               "RelativeDocumentMoniker": "PIMFazendaUrbanaLib\\banco_inserts.sql",
@@ -138,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "banco_criacao.sql ",
               "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaLib\\banco_criacao.sql",
               "RelativeDocumentMoniker": "PIMFazendaUrbanaLib\\banco_criacao.sql",
@@ -150,26 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Index.razor",
-              "RelativeToolTip": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T01:57:37.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Funcionarios.razor.cs",
               "DocumentMoniker": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Funcionarios\\Funcionarios.razor.cs",
               "RelativeDocumentMoniker": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Funcionarios\\Funcionarios.razor.cs",
               "ToolTip": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\Components\\Pages\\Funcionarios\\Funcionarios.razor.cs",
               "RelativeToolTip": "PIMFazendaUrbanaRadzen\\Components\\Pages\\Funcionarios\\Funcionarios.razor.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAcwCkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T17:14:05.95Z",
               "EditorCaption": ""

@@ -736,7 +736,7 @@
           }
         }
       },
-      "Radzen.Blazor/5.6.11": {
+      "Radzen.Blazor/5.7.2": {
         "type": "package",
         "dependencies": {
           "DartSassBuilder": "1.0.0",
@@ -2564,10 +2564,10 @@
         "packageIcon.png"
       ]
     },
-    "Radzen.Blazor/5.6.11": {
-      "sha512": "H+pSjOZRA1ajvovd3l3yIJaKlihn71sT3xE7XXAJ8wvqQh1GnS4n2Ec6FcdKTJftLzImxUWTnN1VZLKgH1UQ/A==",
+    "Radzen.Blazor/5.7.2": {
+      "sha512": "KWagj4X7a2MJluxEY1zCCTojObo2vUxqlYD+9EgSeNqDqvX1QjB4fwYCiQhqgpXo9qlPRnPFY1Ybw2moUOChQw==",
       "type": "package",
-      "path": "radzen.blazor/5.6.11",
+      "path": "radzen.blazor/5.7.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2587,7 +2587,7 @@
         "lib/net8.0/Radzen.Blazor.xml",
         "lib/net9.0/Radzen.Blazor.dll",
         "lib/net9.0/Radzen.Blazor.xml",
-        "radzen.blazor.5.6.11.nupkg.sha512",
+        "radzen.blazor.5.7.2.nupkg.sha512",
         "radzen.blazor.nuspec",
         "staticwebassets/Radzen.Blazor.js",
         "staticwebassets/css/dark-base.css",
@@ -3855,11 +3855,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj",
+      "projectUniqueName": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj",
       "projectName": "PIMFazendaUrbanaRadzen",
-      "projectPath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj",
+      "projectPath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\PIMFazendaUrbanaRadzen.csproj",
       "packagesPath": "C:\\Users\\Paola\\.nuget\\packages\\",
-      "outputPath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\obj\\",
+      "outputPath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaRadzen\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3880,8 +3880,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj": {
-              "projectPath": "G:\\Meu Drive\\André\\Faculdade Unip\\3 semestre\\PIM\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj"
+            "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj": {
+              "projectPath": "C:\\Users\\Paola\\OneDrive\\Desktop\\PimFazendaUrbana2\\PIMFazendaUrbanaAPI\\PIMFazendaUrbanaAPI.csproj"
             }
           }
         }

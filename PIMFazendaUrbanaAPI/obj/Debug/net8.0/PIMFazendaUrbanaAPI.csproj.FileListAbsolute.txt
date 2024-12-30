@@ -172,3 +172,14 @@ C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\
 C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.pdb
 C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.genruntimeconfig.cache
 C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\ref\PIMFazendaUrbanaAPI.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.csproj.AssemblyReference.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.AssemblyInfoInputs.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.AssemblyInfo.cs
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.csproj.CoreCompileInputs.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.sourcelink.json
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\refint\PIMFazendaUrbanaAPI.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaAPI\obj\Debug\net8.0\PIMFazendaUrbanaAPI.pdb

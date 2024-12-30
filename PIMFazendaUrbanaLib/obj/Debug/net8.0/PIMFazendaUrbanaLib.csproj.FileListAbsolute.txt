@@ -26,3 +26,17 @@ C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\
 C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\refint\PIMFazendaUrbanaLib.dll
 C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.pdb
 C:\Users\Paola\OneDrive\Desktop\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\ref\PIMFazendaUrbanaLib.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\DataAccess\ConnectionString.json
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\PIMFazendaUrbanaLib.deps.json
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\PIMFazendaUrbanaLib.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\bin\Debug\net8.0\PIMFazendaUrbanaLib.pdb
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.csproj.AssemblyReference.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.AssemblyInfoInputs.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.AssemblyInfo.cs
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.csproj.CoreCompileInputs.cache
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.sourcelink.json
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\refint\PIMFazendaUrbanaLib.dll
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\PIMFazendaUrbanaLib.pdb
+G:\Meu Drive\André\Faculdade Unip\3 semestre\PIM\PimFazendaUrbana2\PIMFazendaUrbanaLib\obj\Debug\net8.0\ref\PIMFazendaUrbanaLib.dll

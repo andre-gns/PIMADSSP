@@ -2,41 +2,26 @@ use pimfazendaurbana;
 
 ## Funcionario:
 begin;
-INSERT INTO `funcionario` (`nome_funcionario`, `cpf_funcionario`, `sexo_funcionario`, `email_funcionario`, `cargo_funcionario`, `usuario_funcionario`, `senha_funcionario`, `ativo_funcionario`) VALUES
-('Alice Silva', '123.456.789-00', 'F', 'alice.silva@unip.br', 'Funcionário', 'alice.s', 'A1!eB3@cD', true),
-('Bruno Souza', '234.567.890-11', 'M', 'bruno.souza@unip.br', 'Funcionário', 'bruno.s', 'B2#rU4%uZ', true),
-('Carla Dias', '345.678.901-22', 'F', 'carla.dias@unip.br', 'Funcionário', 'carla.d', 'C3$rL5&dI', true),
-('Diego Pereira', '456.789.012-33', 'M', 'diego.pereira@unip.br', 'Gerente', 'diego.p', 'D4#eP6&pR', true),
-('Eva Martins', '567.890.123-44', 'F', 'eva.martins@unip.br', 'Gerente', 'eva.m', 'E5@mA7&nS', true),
-('Felipe Ramos', '678.901.234-55', 'M', 'felipe.ramos@unip.br', 'Funcionário', 'felipe.r', 'F6#lR8*pM', true),
-('Giselle Rocha', '789.012.345-66', 'F', 'giselle.rocha@unip.br', 'Funcionário', 'giselle.r', 'G7&lR9@cA', true),
-('Hugo Almeida', '890.123.456-77', 'M', 'hugo.almeida@unip.br', 'Funcionário', 'hugo.a', 'H8@uA1#lE', true),
-('Isabela Fernandes', '901.234.567-88', 'F', 'isabela.fernandes@unip.br', 'Gerente', 'isabela.f', 'I9#bE2%mN', true),
-('João Lima', '012.345.678-99', 'M', 'joao.lima@unip.br', 'Gerente', 'joao.l', 'J0!oL3&pA', true);
+INSERT INTO funcionario (nome_funcionario, cpf_funcionario, sexo_funcionario, email_funcionario, cargo_funcionario, usuario_funcionario, senha_funcionario, ativo_funcionario) VALUES
+('André Araujo', '111.111.111-11', 'M', 'andre.araujo@unip.br', 'Gerente', 'andre.a', '123456@a', true),
+('Pedro Henrique', '222.222.222-22', 'M', 'pedro.henrique@unip.br', 'Gerente', 'pedro.h', '654321@p', true),
+('Fabio Faccioli', '333.333.333-33', 'M', 'fabio.faccioli@unip.br', 'Funcionário', 'fabio.f', '564321@f', true),
+('Felipe Gregório', '444.444.444-44', 'M', 'felipe.gregorio@unip.br', 'Funcionário', 'felipe.g', '456321@f', true),
+('Felipe Pereira', '555.555.555-55', 'M', 'felipe.pereira@unip.br', 'Funcionário', 'felipe.p', '365421@f', true);
 
-INSERT INTO `enderecofuncionario` (`logradouro_endfuncionario`, `numero_endfuncionario`, `complemento_endfuncionario`, `bairro_endfuncionario`, `cidade_endfuncionario`, `uf_endfuncionario`, `cep_endfuncionario`, `ativo_endfuncionario`, `id_funcionario`) VALUES
-('Rua Sete de Setembro', '123', 'Apto 101', 'Centro', 'Ribeirão Preto', 'SP', '14010-000', true, 1),
-('Rua Mariana Junqueira', '456', 'Casa', 'Vila Tibério', 'Ribeirão Preto', 'SP', '14020-000', true, 2),
-('Rua Conde Afonso Celso', '789', 'Apto 202', 'Jardim Paulista', 'Ribeirão Preto', 'SP', '14090-000', true, 3),
-('Rua Amador Bueno', '101', NULL, 'Sumarezinho', 'Ribeirão Preto', 'SP', '14055-000', true, 4),
-('Rua General Osório', '102', 'Apto 303', 'Campos Elíseos', 'Ribeirão Preto', 'SP', '14080-000', true, 5),
-('Rua Lafaiete', '103', NULL, 'Vila Seixas', 'Ribeirão Preto', 'SP', '14020-250', true, 6),
-('Rua Chile', '104', 'Apto 404', 'Jardim Sumaré', 'Ribeirão Preto', 'SP', '14025-220', true, 7),
-('Rua São Sebastião', '105', NULL, 'Jardim São Luiz', 'Ribeirão Preto', 'SP', '14020-420', true, 8),
-('Rua Álvares Cabral', '106', 'Apto 505', 'Vila Virgínia', 'Ribeirão Preto', 'SP', '14030-000', true, 9),
-('Rua João Penteado', '107', 'Casa', 'Jardim América', 'Ribeirão Preto', 'SP', '14020-110', true, 10);
+INSERT INTO enderecofuncionario (logradouro_endfuncionario, numero_endfuncionario, complemento_endfuncionario, bairro_endfuncionario, cidade_endfuncionario, uf_endfuncionario, cep_endfuncionario, ativo_endfuncionario, id_funcionario) VALUES
+('Rua dos Gerentes', '101', 'Apto 1', 'Chácara Santo Antônio', 'São Paulo', 'SP', '04710-000', true, 31),
+('Rua dos Gerentes', '102', 'Apto 2', 'Chácara Santo Antônio', 'São Paulo', 'SP', '04710-000', true, 32),
+('Rua dos Funcionários', '103', 'Apto 3', 'Chácara Santo Antônio', 'São Paulo', 'SP', '04710-000', true, 33),
+('Rua dos Funcionários', '104', 'Apto 4', 'Chácara Santo Antônio', 'São Paulo', 'SP', '04710-000', true, 34),
+('Rua dos Funcionários', '105', 'Apto 5', 'Chácara Santo Antônio', 'São Paulo', 'SP', '04710-000', true, 35);
 
-INSERT INTO `telefonefuncionario` (`ddd_telfuncionario`, `numero_telfuncionario`, `ativo_telfuncionario`, `id_funcionario`) VALUES
-('16', '987654321', true, 1),
-('16', '976543210', true, 2),
-('16', '965432109', true, 3),
-('16', '954321098', true, 4),
-('16', '943210987', true, 5),
-('16', '932109876', true, 6),
-('16', '921098765', true, 7),
-('16', '910987654', true, 8),
-('16', '909876543', true, 9),
-('16', '898765432', true, 10);
+INSERT INTO telefonefuncionario (ddd_telfuncionario, numero_telfuncionario, ativo_telfuncionario, id_funcionario) VALUES
+('11', '912345678', true, 1),
+('11', '912345678', true, 2),
+('11', '912345678', true, 3),
+('11', '912345678', true, 4),
+('11', '912345678', true, 5);
 
 ## Cliente
 INSERT INTO `cliente` (`nome_cliente`, `email_cliente`, `cnpj_cliente`, `ativo_cliente`) VALUES
@@ -63,17 +48,12 @@ INSERT INTO `enderecocliente` (`logradouro_endcliente`, `numero_endcliente`, `co
 ('Rua Sergipe', '990', NULL, 'Centro', 'Batatais', 'SP', '14300-000', true, 9),
 ('Rua Tocantins', '1000', 'Loja 3', 'Centro', 'Serrana', 'SP', '14150-000', true, 10);
 
-INSERT INTO `telefonecliente` (`ddd_telcliente`, `numero_telcliente`, `ativo_telcliente`, `id_cliente`) VALUES
-('16', '912345678', true, 1),
-('16', '923456789', true, 2),
-('16', '934567890', true, 3),
-('17', '945678901', true, 4),
-('16', '956789012', true, 5),
-('19', '967890123', true, 6),
-('19', '978901234', true, 7),
-('16', '989012345', true, 8),
-('16', '990123456', true, 9),
-('16', '901234567', true, 10);
+INSERT INTO telefonefuncionario (ddd_telfuncionario, numero_telfuncionario, ativo_telfuncionario, id_funcionario) VALUES
+('11', '912345678', true, 1),
+('11', '912345678', true, 2),
+('11', '912345678', true, 3),
+('11', '912345678', true, 4),
+('11', '912345678', true, 5);
 
 ## Fornecedor
 INSERT INTO `fornecedor` (`nome_fornecedor`, `email_fornecedor`, `cnpj_fornecedor`, `ativo_fornecedor`) VALUES
